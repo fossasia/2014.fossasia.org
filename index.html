@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>FOSSASIA - Phnom Penh 2014</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<link rel="shortcut icon" href="fever_favicon.ico" type="image/x-icon" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		   </script>
+	
+	<!-- Google Maps-->
+	<style>
+      #map-canvas {
+        width: 100%;
+        height: 200px;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+		var map;
+		function initialize() {
+		  var mapOptions = {
+		    zoom: 16,
+		    center: new google.maps.LatLng(11.587953, 104.930004),
+		  };
+		  
+		  map = new google.maps.Map(document.getElementById('map-canvas'),
+		      mapOptions);
+
+		      var imagePP = 'images/logos/norton.png';
+		      var myLatLngPP = new google.maps.LatLng(11.587953, 104.930004);
+		      var beachMarkerPP = new google.maps.Marker({
+		          position: myLatLngPP,
+		          map: map,
+		          icon: imagePP
+		      });
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+   </script>
+	<!-- Google Maps-->
+
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+
+				<!-- Logo -->
+					<a href="#"><img src="images/logos/fossasia-logo.png"></a>
+					<!--<h1 id="logo"><a href="#">Big Picture</a></h1>-->
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro">Intro</a></li>
+							<li><a href="#one">Speakers</a></li>
+							<li><a href="#two">Venue</a></li>
+							<li><a href="#work">About Us</a></li>
+							<li><a href="#contact">Agenda</a></li>
+							<li><a href="#contact">Organizers</a></li>
+							<li><a href="#contact">Location</a></li>
+						</ul>
+					</nav>
+
+			</header>
+			
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content container small">
+					<header>
+						<h2>28 Feb - 2 Mar 2014</h2>
+					</header>
+					<p><strong>FOSSASIA</strong> conference - a chance for developers and newbies to meet. Talks, workshops, ignite sessions, floor meetings..</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+				
+			</section>
+		
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. 
+					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, 
+					id varius justo euismod in. Curabitur egestas consectetur magna urna.</p>
+				</div>
+				
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+		
+		<!-- Two -->
+			<section id="two" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<div id="map-canvas"></div>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+			
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content container">
+					<header>
+						<h2>About FOSSASIA</h2>
+						<p>FOSSASIA 2014 is an exciting Open Technology event for developers, students, and start ups using open source to build up their businesses. It is a unique opportunity to share the latest innovations in open source technologies and meet contributors and potential partners. FOSSASIA 2014 will take place for the first time in Cambodia. It will be held at Norton University in Phnom Penh from February 28 - March 2. FOSSASIA 2014 will focus on the use of open technologies in sustainable development in order to improve the lives and conditions of those living in poverty.</p>
+
+						<p>Since the first FOSSASIA meetup in 2009 in Ho Chi Minh City, FOSSASIA has taken the lead to organize Free and Open Source Software conferences in Vietnam. Past FOSSASIA events have attracted over 1400 participants and speakers from 24 countries, with more than 100 volunteers. More than half of all participants were women.</p>
+
+						<h2>FOSSASIA Activities</h2>
+
+						<p>FOSSASIA works together with Open Source projects in Asia and around the world and develops Free and Open Source software for social change.</p>
+
+						<p>We bring developers, designers and start ups together, provide infrastructure and organize code sprints, developer meet ups and community gatherings.</p>
+
+						<p>revious events with links to FOSSASIA were the Mini-Debconf Vietnam, LGM, GNOME.Asia, Hackerspace Meetings in Singapore, LUG meetups in Vietnam, TYPO3 events in Phnom Penh, OpenDesign.Asia Weeks, the FOSSASIA conference series and many others.</p>
+
+						<p>FOSSASIA also participates in the Google Summer of Code program as an umbrella organization for projects and developers in Asia and supports exchanges of developers with Asian contributors.</p>
+
+ 
+						<h2>Contact</h2>
+
+						<p>FOSSASIA Organization Team</p>
+
+						<p>Hong Phuc Dang</p>
+						<p>FOSSASIA Organizer</p>
+						<p>hp@fossasia.org</p>
+						<p>Vietnam +84 939871001</p>
+
+					</header>
+					
+					<!--
+						 Lightbox Gallery
+						 
+						 Powered by poptrox. Full docs here: https://github.com/n33/jquery.poptrox-->
+					
+						<div class="container small gallery">
+							<div class="row flush images">
+								<div class="6u"><a href="images/fulls/01.jpg" class="image full l"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/02.jpg" class="image full r"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a></div>
+							</div>
+							<div class="row flush images">
+								<div class="6u"><a href="images/fulls/03.jpg" class="image full l"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/04.jpg" class="image full r"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a></div>
+							</div>
+							<div class="row flush images">
+								<div class="6u"><a href="images/fulls/05.jpg" class="image full l"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/06.jpg" class="image full r"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
+							</div>
+						</div>
+
+				</div>
+			</section>
+			
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content container">
+					
+				</div>
+			</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+			
+				<!--
+				     Social Icons
+				     
+				     Use anything from here: http://fortawesome.github.io/Font-Awesome/cheatsheet/)
+				-->
+					<ul class="actions">
+						<li><a href="#" class="fa solo fa-twitter"><span>Twitter</span></a></li>
+						<li><a href="#" class="fa solo fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="#" class="fa solo fa-google-plus"><span>Google+</span></a></li>
+						<li><a href="#" class="fa solo fa-dribbble"><span>Dribbble</span></a></li>
+						<li><a href="#" class="fa solo fa-pinterest"><span>Pinterest</span></a></li>
+						<li><a href="#" class="fa solo fa-instagram"><span>Instagram</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Untitled</li>
+						<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+					</ul>
+			
+			</footer>
+
+	</body>
+</html>
