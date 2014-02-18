@@ -451,13 +451,17 @@
 	/* Box */
 
 		.box {
-			background: #fff;
-			color: #39454b;
-			padding: 2em;
+			/*background: #fff;*/
+			/*color: #39454b;*/
+			color: #fff;
+			/*padding: 2em;*/
+			width: 100%;
 		}
 		
 			.box.style2 {
-				padding: 3.5em 2.5em 3.5em 2.5em;
+				/*padding: 3.5em 2.5em 3.5em 2.5em;*/
+				text-align: center;
+
 			}
 
 	/* Main */
@@ -1414,3 +1418,18 @@
 			body.touch .poptrox-popup .closer {
 				opacity: 1.0 !important;
 			}
+
+
+/*********************************************************************************/
+/* Owl                                                                           */
+/*********************************************************************************/
+    #owl-demo .item{
+    margin: 3px;
+    }
+    #owl-demo .item img{
+    display: block;
+    width: 230px;
+    height: 250px;
+    border-radius: 500px;
+    }
+    

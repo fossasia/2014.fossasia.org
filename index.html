@@ -19,12 +19,20 @@
 		<link rel="shortcut icon" href="fever_favicon.ico" type="image/x-icon" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		   </script>
+
+		<!-- Important Owl stylesheet -->
+	    <link rel="stylesheet" href="css/owl.carousel.css">
+	     
+	    <!-- Default Theme -->
+	    <link rel="stylesheet" href="css/owl.theme.css">
+	     
+	    <!-- Include js plugin -->
+	    <script src="js/owl.carousel.js"></script>
 	
-	<!-- Google Maps-->
 	<style>
       #map-canvas {
         width: 100%;
-        height: 200px;
+        height: 250px;
         margin: 0px;
         padding: 0px
       }
@@ -51,8 +59,25 @@
 		}
 
 		google.maps.event.addDomListener(window, 'load', initialize);
+		/*Google Maps */
+
+		/*Owl */
+	    $(document).ready(function() {
+	     
+	    $("#owl-demo").owlCarousel({
+	     
+	    autoPlay: 3000, //Set AutoPlay to 3 seconds
+	     
+	    items : 5,
+	    itemsDesktop : [1199,3],
+	    itemsDesktopSmall : [979,3]
+	     
+	    });
+	     
+	    });
+
    </script>
-	<!-- Google Maps-->
+	
 
 	</head>
 	<body>
@@ -94,14 +119,51 @@
 			</section>
 		
 		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<<div class="content box style2">
-					<header>
-						<h2>What I Do</h2>
-					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. 
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, 
-					id varius justo euismod in. Curabitur egestas consectetur magna urna.</p>
+			<section id="one" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+						<!-- owl-->
+					    <div id="owl-demo">
+					    <div class="item"><img src="images/speakers/001_Handoko_Suwono.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/002_Andun_Sameera_Liyanagunawardana.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/003_Arthit_Suriyawongkul.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/004_axelhecht_big.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/005_Bastian_Bittorf.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/006_CatAllman.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/007_Colin_Charles.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/008_Dave_Crossland.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/009_Dominik_Stankowski.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/010_Fam_Zheng.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/011_fam_zheng.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/012_Fernando_Travieso.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/013_Harsha_Siriwardena.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/014_Jose_de_Soto.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/015_Julia_Yu_Chin_Cheng.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/016_Justin_Lee.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/017_Kheng_Piseth.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/018_Khoem_Sokhem.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/019_Kushal_Das.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/020_Lyle_Kozloff.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/021_Mario_Behling.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/022_Martin_F.Krafft.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/023_Michael_Howden.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/024_Michael_Knoll.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/025_Mohit_Singh_Kanwal.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/026_Nguyen_Nang_Thang.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/028_Nguyen_Vu_Hung.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/029_Ping_Hsun_Chen.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/030_Preetam_Rai.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/031_Sarup_Banskota.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/032_Sebastian_Helzle.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/033_Sirko_Kemter.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/034_Sneha_Priscilla.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/035_Stephanie_Taylor.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/036_Truong_Anh_Tuan.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/037_Uditha_Bandara_Wijerathna.jpg" alt="Owl Image"></div>
+					    <div class="item"><img src="images/speakers/038_Wan_Leung_Wong.jpg" alt="Owl Image"></div>
+			     
+			    </div>
+
+
 				</div>
 				
 				<a href="#two" class="button style2 down anchored">Next</a>
@@ -110,6 +172,11 @@
 		<!-- Two -->
 			<section id="two" class="main style2 right dark fullscreen">
 				<div class="content box style2">
+					<header>
+						<h1>Norton University</h1>
+						<p>New Campus : St. Keo Chenda, Sangkat Chroy Changva, Khan Russey Keo, Phnom Penh, Cambodia.</p>
+
+					</header>
 					<div id="map-canvas"></div>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>

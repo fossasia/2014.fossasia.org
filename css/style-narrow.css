@@ -15,11 +15,11 @@
 			}
 			
 				.main.style2 .content {
-					width: 50%;
+					width: 100%;
 				}
 			
 					.main.style2.right .content {
-						left: 50%;
+						left: 0%;
 					}
 
 				.main.style2.inactive {
