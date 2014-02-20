@@ -1162,6 +1162,50 @@
 				#work .row.images.inactive .image.r {
 					left: 14em;
 				}
+
+/*********************************************************************************/
+/* Oranizers                                                                          */
+/*********************************************************************************/
+
+	#org {
+	}
+	
+		#org .row.images {
+		}
+	
+			#org .row.images .image {
+				position: relative;
+				top: 0;
+				left: 0;
+				opacity: 1.0;
+			
+				-moz-transition: all 1s ease;
+				-webkit-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				-ms-transition: all 1s ease;
+				transition: all 1s ease;
+				
+				-moz-transform: translateZ(0);
+				-webkit-transform: translateZ(0);
+				-o-transform: translateZ(0);
+				-ms-transform: translateZ(0);
+				transform: translateZ(0);
+			}
+		
+			#org .row.images.inactive {
+			}
+
+				#org .row.images.inactive .image {
+					opacity: 0;
+				}
+			
+				#org .row.images.inactive .image.l {
+					left: -14em;
+				}
+			
+				#org .row.images.inactive .image.r {
+					left: 14em;
+				}
 			
 /*********************************************************************************/
 /* Contact                                                                       */
