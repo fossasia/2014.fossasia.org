@@ -17,7 +17,7 @@ Facebook: [https://www.facebook.com/fossasia](https://www.facebook.com/fossasia)
 
 For group discussions we are using IRC:
 
-irc.freenode.net#fossasia
+[irc.freenode.net#fossasia](irc://irc.freenode.net/fossasia)
 
 If you need to get in touch with the FOSSASIA committee, please contact:
 
