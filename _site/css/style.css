@@ -8,17 +8,17 @@ nav {
 
 ::selection {
 	color: #FFF;
-	background-color: #ff3243;
+	background-color: #ff3131;
 }
 
 -webkit-::selection {
 	color: #FFF;
-	background-color: #ff3243;
+	background-color: #ff3131;
 }
 
 -msie-::selection {
 	color: #FFF;
-	background-color: #ff3243;
+	background-color: #ff3131;
 }
 
 -moz-::selection {
@@ -28,7 +28,7 @@ nav {
 
 -o-::selection {
 	color: #FFF;
-	background-color: #ff3243;
+	background-color: #ff3131;
 }
 
 img {
@@ -95,7 +95,7 @@ li:hover ul a {
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-	background: #ff3239;
+	background: #ff3131;
 	color: #fff;
 }
 
@@ -241,7 +241,7 @@ a:hover {
 		#side-bar {
 			display: block;
 			margin-top: 5%;
-			background-color: #EEE;
+			background-color: #ff3131;
 			border-radius: 10px;
 			width: 90em;
 			width: 30%;
