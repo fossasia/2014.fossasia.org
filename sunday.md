@@ -19,7 +19,7 @@ title: FOSSASIA 2014 - Hands-On Lab Sunday March 2
 .tg .tg-hy62{background-color:#c0c0c0}
 .tg .tg-tkkh{background-color:#c0c0c0;text-align:right}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 846px">
+<table class="tg" style="undefined;table-layout: fixed; width: 846px auto;">
 <colgroup>
 <col style="width: 90.19999998807907px">
 <col style="width: 166.19999998807907px">
