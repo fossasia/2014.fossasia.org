@@ -16,7 +16,7 @@ title: Schedule Friday February 28
 .tg .tg-s6z2{text-align:center}
 .tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 828px">
+<table class="tg" style="undefined;table-layout: fixed; width: 828px auto;">
 <colgroup>
 <col style="width: 86.19999998807907px">
 <col style="width: 204.19999998807907px">

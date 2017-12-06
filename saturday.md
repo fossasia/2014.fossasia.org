@@ -26,7 +26,7 @@ title: Schedule Saturday March 1 | FOSSASIA
 .tg .tg-s6z2{text-align:center}
 .tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 835px">
+<table class="tg" style="undefined;table-layout: fixed; width: 835px auto;">
 <colgroup>
 <col style="width: 92.19999998807907px">
 <col style="width: 211.19999998807907px">
