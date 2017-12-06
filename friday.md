@@ -15,7 +15,7 @@ title: Friday February 28 - Opening and Keynotes | FOSSASIA
 .tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
 .tg .tg-8xqh{font-weight:bold;background-color:#c0c0c0}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 700px">
+<table class="tg" style="undefined;table-layout: fixed; width: 700px auto;">
 <colgroup>
 <col style="width: 116.19999998807907px">
 <col style="width: 584.1999999880791px">
