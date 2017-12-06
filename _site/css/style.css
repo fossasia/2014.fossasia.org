@@ -1,6 +1,6 @@
 html, body {
-    min-height: 100% !important;
-    height: 100%;
+     	 min-height: 100% !important;
+         height: 100%;
 }
 nav {
 	margin-left: 5%;
@@ -54,23 +54,23 @@ p {
 
 /*Strip the ul of padding and list styling*/
 ul {
-	list-style-type:none;
+	list-style-type: none;
 	margin: 0 auto;
-	padding:0;
+	padding: 0;
 	position: absolute;
 }
 
 /*Create a horizontal list with spacing*/
 li {
-	display:inline-block;
+	display: inline-block;
 	float: left;
 	margin-right: 1px;
 }
 
 /*Style for menu links*/
 li a {
-	display:block;
-	min-width:140px;
+	display: block;
+	min-width: 140px;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
