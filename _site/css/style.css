@@ -53,74 +53,6 @@ p {
 }
 
 /*Strip the ul of padding and list styling*/
-ul {
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-}
-
-/*Create a horizontal list with spacing*/
-li {
-	display: inline-block;
-	float: left;
-	margin-right: 1px;
-}
-
-/*Style for menu links*/
-li a {
-	display: block;
-	min-width: 140px;
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #fff;
-	background: #2f3036;
-	text-decoration: none;
-}
-
-/*Hover state for top level links*/
-li:hover a {
-	background: #ff3131;
-}
-
-/*Style for dropdown links*/
-li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
-	height: 40px;
-	line-height: 40px;
-}
-
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
-	background: #ff3131;
-	color: #fff;
-}
-
-/*Hide dropdown links until they are needed*/
-li ul {
-	display: none;
-}
-
-/*Make dropdown links vertical*/
-li ul li {
-	display: block;
-	float: none;
-}
-
-/*Prevent text wrapping*/
-li ul li a {
-	width: auto;
-	min-width: 100px;
-	padding: 0 20px;
-}
-
-/*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
-	display: block;
-}
 
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
@@ -366,4 +298,46 @@ a:hover {
 	height: 100px;
 	margin-left: 2%;
 	width: 30%;
+}
+ul.sf-menu {
+    background: #1A96D4;
+    clear: none;
+    float: none;
+    height: 44px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+system-menus.css
+ul.menu {
+    list-style: none;
+    border: none;
+    text-align: left;
+
+}
+ul.sf-menu li.last, ul.sf-menu li li.last, #primaryMenu li.last {
+    border-bottom: none;
+}
+ul.sf-menu li {
+    border-right: 1px #ccc solid;
+    color: #fff;
+    display: block;
+    float: left;
+    font-weight: bold;
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: visible;
+    width: auto;
+    z-index: 100;}
+     ul.sf-menu li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    padding: 14px;
+    outline: none;
 }
