@@ -216,11 +216,11 @@ input[type=checkbox]:checked ~ #menu{
 
 a {
 	text-decoration: none;
-	color: #ff3131;
+	color: #090;
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 #side-bar h1 {
 		display: block;
