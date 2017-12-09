@@ -300,7 +300,7 @@ a:hover {
 	width: 30%;
 }
 ul.sf-menu {
-    background: #1A96D4;
+    background: rgba(255,255,255,0.9);
     clear: none;
     float: none;
     height: 44px;
@@ -321,7 +321,7 @@ ul.sf-menu li.last, ul.sf-menu li li.last, #primaryMenu li.last {
 }
 ul.sf-menu li {
     border-right: 1px #ccc solid;
-    color: #fff;
+    color: #000000;
     display: block;
     float: left;
     font-weight: bold;
