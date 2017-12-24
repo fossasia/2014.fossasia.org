@@ -10,11 +10,15 @@ FOSSASIA 2014 is an exciting Open Technology event for developers, students, and
 
 Since the first FOSSASIA meetup in 2009 in Ho Chi Minh City, FOSSASIA has taken the lead to organize Free and Open Source Software conferences in Vietnam. Past FOSSASIA events have attracted over 1400 participants and speakers from 24 countries, with more than 100 volunteers. More than half of all participants were women.
 
+FOSSASIA is an organization developing software applications for social change using a wide-range of technologies. It was established in 2009. Projects range from Free and Open Source software, to design, graphics and hardware. We also organize and participate in conferences, meetups and code camps. The annual FOSSASIA OpenTechSummit is one of the largest gatherings of developers in Asia and took place in Vietnam, Cambodia and Singapore. Please join us and start contributing to our projects on [GitHub](https://github.com/fossasia.org).
+
 ##FOSSASIA Activities
 
 FOSSASIA works together with Open Source projects in Asia and around the world and develops Free and Open Source software for social change.
 
 We bring developers, designers and start ups together, provide infrastructure and organize code sprints, developer meet ups and community gatherings.
+
+Every year Fossasia becomes an organisation in the [Google Code-In](https://codein.withgoogle.com) and [Google Summer of Code](https://summerofcode.withgoogle.com), allowing young developers to contribute to open-source. Every year Fossasia becomes the recipient of the most particpants who collectively do 100s of tasks
 
 Previous events with links to FOSSASIA were the [Mini-Debconf Vietnam](http://fossasia.org/wiki.debian.org/DebianVietnam/MiniDebConf2010), [LGM](http://libregraphicsmeeting.org/), [GNOME.Asia](http://gnome.asia/), [Hackerspace](http://hackerspace.sg/), Meetings in Singapore, [LUG](http://cantholug.org/) meetups in Vietnam, [TYPO3](http://typo3cambodia.org/) events in Phnom Penh, [OpenDesign.Asia Weeks](http://opendesign.asia/), the [FOSSASIA Conference](http://fossasia.org/events) series and many others.
 
