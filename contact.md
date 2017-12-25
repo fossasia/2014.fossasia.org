@@ -23,7 +23,7 @@ Youtube: [https://www.youtube.com/channel/fossasia](https://www.youtube.com/chan
 
 Contribute at: 
 
-Github:[https://github.com/fossasia](https://github.com/fossasia/fossasia) 
+Github:[https://github.com/fossasia](https://github.com/fossasia) 
 
 For group discussions we are using IRC:
 
