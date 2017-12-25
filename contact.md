@@ -15,6 +15,16 @@ Google+: [https://plus.google.com/u/0/108920596016838318216](https://plus.google
 
 Facebook: [https://www.facebook.com/fossasia](https://www.facebook.com/fossasia)
 
+Instagram: [https://www.instagram.com/fossasia/?hl=en](https://www.instagram.com/fossasia/?hl=en)
+
+Twitter: [https://twitter.com/fossasia](https://twitter.com/fossasia)
+
+Youtube: [https://www.youtube.com/channel/fossasia](https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ)
+
+Contribute at: 
+
+Github:[https://github.com/fossasia](https://github.com/fossasia/fossasia) 
+
 For group discussions we are using IRC:
 
 [irc.freenode.net#fossasia](irc://irc.freenode.net/fossasia)
