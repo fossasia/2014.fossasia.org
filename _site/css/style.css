@@ -341,3 +341,13 @@ ul.sf-menu li {
     padding: 14px;
     outline: none;
 }
+.first{
+ 	font-family:'Open Sans Condensed', sans-serif;
+	font-weight:300;
+	font-size:16px;
+	color:#00;		
+	outline:none;
+}
+#headings{
+	font-size:25px;
+}
