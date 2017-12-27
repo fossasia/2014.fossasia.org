@@ -4,23 +4,13 @@
 			display: block;
 			margin: 0 auto;
 			text-align: center;
-			color: #EEE;
-			background: rgb(0,183,234); /* Old browsers */
-			background: -moz-linear-gradient(top,  rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,183,234,1)), color-stop(100%,rgba(0,158,195,1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* IE10+ */
-			background: linear-gradient(to bottom,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+			background: none;
 			margin-top: 7%;
 		}
 
 		#side-bar {
 			display: block;
 			margin-top: 5%;
-			background-color: #EEE;
-			border-radius: 10px;
 			width: 90em;
 			width: 30%;
 			float: right;
@@ -28,33 +18,34 @@
 		}
 
 		h1 {
-			font-family: 'Open Sans Condensed';
+			font-family: 'Open Sans';
 			font-weight: normal;
+      			text-transform: uppercase;
+      			letter-spacing: 3px;
+			padding-left: 300px;
 		}
 
 		#side-bar h1 {
-			font-family: 'Lobster';
-			color: #DDD;
+			font-family: 'raleway';
+			color: #333;
+			font-size: 1.4em;
+			text-transform: none;
+			letter-spacing: 0;
+			padding: 0px;
+
 		}
 
 		#side-bar .sponsor {
 			display: block;
-			width: 70%;
+			width: 50%;
 			margin: 0 auto;
-			margin-top: 5%;
-			-webkit-box-shadow: 10px 0px 42px -10px rgba(84,146,168,1);
-			-moz-box-shadow: 10px 0px 42px -10px rgba(84,146,168,1);
-			box-shadow: 10px 0px 42px -10px rgba(84,146,168,1);
+			margin-top: 10%;
 			padding-bottom: 3%;
 			transition: 0.4s;
-			-webkit-transition: 0.4s;
-			-moz-transition: 0.4s;
 		}
 
 		#side-bar .sponsor:hover {
-			-webkit-box-shadow: 10px 0px 42px 0px rgba(84,146,168,1);
-			-moz-box-shadow: 10px 0px 42px 0px rgba(84,146,168,1);
-			box-shadow: 10px 0px 42px 0px rgba(84,146,168,1);
+			width: 60%
 		}
 
 		#mc_embed_signup form {
@@ -70,16 +61,21 @@
 			font: 14px Helvetica,Arial,sans-serif;
 		}
 
+    		#mc_embed_signup_scroll {
+      			padding-top: 15px;
+  	 	}
+
 		#mce-EMAIL {
 			display: block;
 			margin-top: 5%;
-			font: 14px Arial, Helvetica,Arial,sans-serif;
+			font: 14px 'raleway';
 			letter-spacing: 1px;
-			border-radius: 5px;
+			border: none;
+      			background-color: #efecec;
 			padding-left: 5px;
 			margin: 0 auto;
-			width: 90%;
-			height: 30px;
+			width: 70%;
+			height: 25px;
 		}
 
 		#mc-embedded-subscribe {
@@ -88,13 +84,19 @@
 			width: 60%;
 			height: 30px;
 			margin-top: 5%;
-			transition: 0.5s;
-			-webkit-transition: 0.5s;
-			-moz-transition: 0.5s;
+			background-color: #e12b00;
+      			border-radius: 15px;
+      			border: none;
+      			color: #fff;
+      			font-family: 'raleway';
+      			font-weight: 600;
 		}
 
 		#mc-embedded-subscribe:hover {
-			background-color: #BBB;
+      			border-style: solid;
+			border-color: #e12b00;
+      			background: none;
+      			color: #333;
 		}
 
 		form {
@@ -132,7 +134,7 @@
 	}
 }
 
-.friends-href {
+friends-href {
 	text-align: center;
 	display: block;
 	text-decoration: none;
@@ -146,8 +148,8 @@
 	width: 30%;
 }
 html, body {
-    min-height: 100% !important;
-    height: 100%;
+    	min-height: 100% !important;
+    	height: 100%;
 }
 nav {
 	margin-left: 5%;
@@ -186,8 +188,9 @@ img {
 }
 
 h2 {
-	font-family: 'Droid Sans';
+	font-family: 'Open Sans';
 	text-align: center;
+  	font-weight: 400;
 }
 
 h3 {
@@ -196,7 +199,7 @@ h3 {
 }
 
 p {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "open sans";
 }
 
 /*Strip the ul of padding and list styling*/
@@ -217,33 +220,39 @@ li {
 /*Style for menu links*/
 li a {
 	display:block;
+  	font-size: 12px;
+  	letter-spacing: 1px;
+  	font-weight: bold;
+  	text-transform: uppercase;
 	min-width:140px;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #fff;
-	background: #2f3036;
+	font-family: 'Open Sans';
+	color: #333;
+	background: none;
 	text-decoration: none;
 }
 
 /*Hover state for top level links*/
 li:hover a {
-	background: #19c589;
+	color:  #e12b00;
+  	border-bottom-style: solid;
+  	text-decoration: none;
 }
 
 /*Style for dropdown links*/
 li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
+	background: #00000080;
+	color: #fff;
 	height: 40px;
 	line-height: 40px;
+	border: none;
 }
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-	background: #19c589;
-	color: #fff;
+	background-color: #e12b00;
 }
 
 /*Hide dropdown links until they are needed*/
@@ -269,6 +278,7 @@ ul li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
 
+
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -282,13 +292,13 @@ ul li a:hover + .hidden, .hidden:hover {
 
 /*Hide checkbox*/
 input[type=checkbox]{
-    display: none;
-    -webkit-appearance: none;
+    	display: none;
+    	-webkit-appearance: none;
 }
 
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
-    display: block;
+   	display: block;
 }
 
 #wrapper {
@@ -296,9 +306,7 @@ input[type=checkbox]:checked ~ #menu{
 	height: 290em;
 	margin: 0 auto;
 	max-width: 90%;
-	border-radius: 10px;
-	box-shadow: inset 4px 4px 20px 2px #787878;
-	padding: 1em 1em 1em 1em;
+	padding: 0 1em 1em 1em;
 }
 
 #content {
@@ -310,6 +318,7 @@ input[type=checkbox]:checked ~ #menu{
 	width: 65%;
 	float: left;
 	height: 285em;
+  	padding: 15px;
 }
 
 /*Responsive Styles*/
@@ -369,7 +378,6 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-
 	</style>
 <div id="wrapper">
 <header>
