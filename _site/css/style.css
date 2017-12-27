@@ -78,7 +78,7 @@ input[type=checkbox]:checked ~ #menu{
 
 #wrapper {
 	width: 80em;
-	height: 290em;
+	height: 3700px;
 	margin: 0 auto;
 	max-width: 90%;
 	border-radius: 10px;
@@ -94,7 +94,7 @@ input[type=checkbox]:checked ~ #menu{
 	width: 90em;
 	width: 65%;
 	float: left;
-	height: 285em;
+	
 }
 
 /*Responsive Styles*/
@@ -178,7 +178,6 @@ a:hover {
 			width: 90em;
 			width: 30%;
 			float: right;
-			height: 285em;
 		}
 
 		h1 {
