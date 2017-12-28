@@ -9,4 +9,4 @@ url: "http://akshattripathi.github.io/fossasia14/" # the base hostname & protoco
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
