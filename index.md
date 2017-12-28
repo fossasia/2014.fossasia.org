@@ -3,19 +3,19 @@ layout: default
 title: FOSSASIA | 28 Feb.-2 Mar 2014 | Phnom Penh, Cambodia | Open Source Technology | Event in Asia
 ---
 
-#Schedule
+# Schedule
 
 ![Group FOSSASIA](images/fossasia_group1.jpg "Group FOSSASIA")
 
-##3 Days of Pure Knowledge Sharing, 71 International Speakers, 15 Presenters from Cambodia, 121 Talks, Workshops and Panels, 8 tracks per day, Hands-on Labs and Hacking practice for everyone.
+## 3 Days of Pure Knowledge Sharing, 71 International Speakers, 15 Presenters from Cambodia, 121 Talks, Workshops and Panels, 8 tracks per day, Hands-on Labs and Hacking practice for everyone.
 
 <a href="schedule.pdf" target="_blank">![FOSSASIA Schedule](images/fossasia-schedule.jpg "FOSSASIA Schedule")</a>
 
-##Please click above to download the detailed schedule as pdf.
+## Please click above to download the detailed schedule as pdf.
 
 ![Group FOSSASIA](images/fossasia_group2.jpg "Group FOSSASIA")
 
-#Agenda
+# Agenda
 
 The main topics of FOSSASIA 2014 are all related to Free and Open Source Software with talks and workshops about Mobile Solutions, Web Technologies, Linux Operating Systems, Open Education and Open Map solutions.
 
@@ -32,7 +32,7 @@ The main topics of FOSSASIA 2014 are all related to Free and Open Source Softwar
 
 ![Building](images/building.jpg "Building")
 
-##Location: Street 352, Open Institute, Phnom Penh, Cambodia [Map http://goo.gl/maps/2zDkb]
+## Location: Street 352, Open Institute, Phnom Penh, Cambodia [Map](http://goo.gl/maps/2zDkb)
 
 ![Cambodia Group](images/cambodia_group1.jpg "Cambodia Group")
 ![Cambodia Group](images/cambodia_group2.jpg "Cambodia Group")

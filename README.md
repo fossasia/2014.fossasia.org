@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/fossasia/2014.fossasia.org.svg?branch=gh-pages)](https://travis-ci.org/fossasia/2014.fossasia.org)
 # fossasia14
-FOSSASIA 2014's Website for Google Code In
+FOSSASIA 2014's Website for Fossasia Summit 2014
 
 Running
 ---
