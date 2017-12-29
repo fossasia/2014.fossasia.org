@@ -1,5 +1,9 @@
 <body>
 <style scoped>
+
+    #feet, .push{
+			height:50px;
+		}
 		#side-bar h1 {
 			display: block;
 			margin: 0 auto;
@@ -9,7 +13,8 @@
 		}
 
 		#side-bar {
-			display: block;
+			display: flex;
+			flex-direction:column;
 			margin-top: 5%;
 			width: 90em;
 			width: 30%;
@@ -105,7 +110,8 @@
 
 @media screen and (min-width: 20px) and (max-width : 760px) {
 	#side-bar {
-		display: block;
+		display: flex;
+		flex-direction:column;
 		margin-top: 5%;
 		background-color: #EEE;
 		border-radius: 10px;
@@ -305,7 +311,7 @@ input[type=checkbox]:checked ~ #menu{
 
 #wrapper {
 	width: 80em;
-	height: auto;
+	height: 3820;
 	margin: 0 auto;
 	max-width: 90%;
 	padding: 0 1em 1em 1em;
@@ -382,6 +388,13 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+#feet{
+	display:flex;
+	wrap: nowrap;
+
+
+
 }
 	</style>
 <div id="wrapper">
