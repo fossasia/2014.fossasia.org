@@ -3,11 +3,11 @@ layout: default
 title: FOSSASIA 2014 - Hands-On Lab Sunday March 2
 ---
 
-#FOSSASIA 2014 - Hands-On Lab Sunday March 2
+# FOSSASIA 2014 - Hands-On Lab Sunday March 2
 
 ![Hong Phuc Dang](images/hong_phuc.jpg "Hong Phuc Dang")
 
-##Hands-on Labs, Open Institute Phnom Penh
+## Hands-on Labs, Open Institute Phnom Penh
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
