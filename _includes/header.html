@@ -204,6 +204,8 @@ p {
 
 /*Strip the ul of padding and list styling*/
 ul {
+	display:flex;
+  wrap:nowrap;
 	list-style-type:none;
 	margin: 0 auto;
 	padding:0;
@@ -220,7 +222,7 @@ li {
 /*Style for menu links*/
 li a {
 	display:block;
-  	font-size: 12px;
+  	font-size: 100%;
   	letter-spacing: 1px;
   	font-weight: bold;
   	text-transform: uppercase;
@@ -353,21 +355,21 @@ input[type=checkbox]:checked ~ #menu{
 @media screen and (min-width: 760px)  and (max-width: 900px){
 	li a {
 		min-width: 83px;
-		font-size: 0.7em;
+		font-size: 80%;
 	}
 }
 
 @media screen and (min-width: 900px)  and (max-width: 1100px){
 	li a {
 		min-width: 90px;
-		font-size: 0.9em;
+		font-size: 80%;
 	}
 }
 
 @media screen and (min-width: 1100px)  and (max-width: 1300px){
 	li a {
 		min-width: 120px;
-		font-size: 1em;
+		font-size: 80%;
 	}
 }
 
