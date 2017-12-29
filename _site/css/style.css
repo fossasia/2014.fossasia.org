@@ -21,6 +21,15 @@ nav {
 	background-color: #ff3131;
 }
 
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
 -moz-::selection {
 	color: #FFF;
 	background-color: #ff3243;
