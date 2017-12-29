@@ -94,7 +94,6 @@ input[type=checkbox]:checked ~ #menu{
 	width: 90em;
 	width: 65%;
 	float: left;
-	height: 285em;
 }
 
 /*Responsive Styles*/
