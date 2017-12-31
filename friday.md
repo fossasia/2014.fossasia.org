@@ -3,7 +3,7 @@ layout: default
 title: Friday February 28 - Opening and Keynotes | FOSSASIA
 ---
 
-# Friday February 28 - Opening and Keynotes
+#Friday February 28 - Opening and Keynotes
 
 ![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
 
