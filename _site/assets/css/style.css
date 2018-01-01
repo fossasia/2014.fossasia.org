@@ -448,3 +448,12 @@ footer {
     padding: 0.4in;
     font-size: 12pt;
     color: #444; } }
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
