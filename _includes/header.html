@@ -1,52 +1,61 @@
 <body>
 <style scoped>
-		#side-bar h1 {
-			display: block;
-			margin: 0 auto;
+		.partners h1 {
+			margin-top: 70px;
 			text-align: center;
 			background: none;
-			margin-top: 7%;
-		}
-
-		#side-bar {
-			display: block;
-			margin-top: 5%;
-			width: 90em;
-			width: 30%;
-			float: right;
-			height: 285em;
-		}
-
-		h1 {
-			font-family: 'Open Sans';
-			font-weight: normal;
-  			text-transform: uppercase;
-  			letter-spacing: 3px;
-  			text-align: center;
-		}
-
-		#side-bar h1 {
 			font-family: 'raleway';
 			color: #333;
 			font-size: 1.4em;
 			text-transform: none;
 			letter-spacing: 0;
 			padding: 0px;
-
 		}
 
-		#side-bar .sponsor {
-			display: block;
-			width: 50%;
+		h1 {
+			font-family: 'Open Sans';
+			font-weight: normal;
+        		text-transform: uppercase;
+    			letter-spacing: 3px;
+			padding-left: 300px;
+		}
+
+		.partners .sponsor {
 			margin: 0 auto;
 			margin-top: 10%;
 			padding-bottom: 3%;
+            		width: 200px;
 			transition: 0.4s;
 		}
 
-		#side-bar .sponsor:hover {
-			width: 60%
+		.partners .sponsor:hover {
+			width: 240px;
 		}
+        .newsletter-form {
+            background-image: url(images/fossasia_group6.jpg);
+            background-size: cover;
+            padding: 50px 0;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .newsletter-form:before {
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            content: '\A';
+            position: absolute;
+            z-index: 0;
+        }
+        .newsletter-form h1 {
+            font-size: 35px; 
+            color: #fff;
+        }
+        .newsletter-form * {
+            position: relative;
+        }
 
 		#mc_embed_signup form {
 			display: block;
@@ -61,78 +70,46 @@
 			font: 14px Helvetica,Arial,sans-serif;
 		}
 
-    		#mc_embed_signup_scroll {
-      			padding-top: 15px;
-  	 	}
+        #mc_embed_signup_scroll {
+        	padding-top: 15px;
+    	}
 
 		#mce-EMAIL {
-			display: block;
-			margin-top: 5%;
 			font: 14px 'raleway';
 			letter-spacing: 1px;
 			border: none;
-      			background-color: #efecec;
+    			background-color: rgba(238, 238, 238, 0.6);
 			padding-left: 5px;
 			margin: 0 auto;
-			width: 70%;
-			height: 25px;
+			height: 35px;
 		}
 
 		#mc-embedded-subscribe {
 			display: block;
 			margin: 0 auto;
-			width: 60%;
-			height: 30px;
+            		width: 220px;
+			height: 45px;
 			margin-top: 5%;
 			background-color: #e12b00;
-      			border-radius: 15px;
-      			border: none;
-      			color: #fff;
-      			font-family: 'raleway';
-      			font-weight: 600;
+    			border-radius: 25px;
+            		border: none;
+    			color: #fff;
+    			font-family: 'raleway';
+    			font-weight: 600;
+            		transition: 0.4s;
+            		cursor: pointer;
+            		font-size: 18px;
 		}
 
 		#mc-embedded-subscribe:hover {
-      			border-style: solid;
+    			border-style: solid;
 			border-color: #e12b00;
-      			background: none;
-      			color: #333;
+    			background-color: rgba(238, 238, 238, 0.2);
 		}
 
 		form {
 			margin: 0;
 		}
-
-@media screen and (min-width: 20px) and (max-width : 760px) {
-	#side-bar {
-		display: block;
-		margin-top: 5%;
-		background-color: #EEE;
-		border-radius: 10px;
-		width: 90em;
-		width: 100%;
-		float: right;
-		height: 222em;
-	}
-}
-
-@media screen and (min-width: 760px)  and (max-width: 900px){
-	#side-bar h1 {
-		font-size: 0.7em;
-	}
-}
-
-@media screen and (min-width: 900px)  and (max-width: 1100px){
-	#side-bar h1 {
-		font-size: 0.9em;
-	}
-}
-
-@media screen and (min-width: 1100px)  and (max-width: 1300px){
-	#side-bar h1 {
-		font-size: 1.5em;
-	}
-}
 
 friends-href {
 	text-align: center;
@@ -148,11 +125,9 @@ friends-href {
 	width: 30%;
 }
 html, body {
-    	min-height: 100% !important;
-    	height: 100%;
-}
-nav {
-	margin-left: 5%;
+	min-height: 100% !important;
+	height: 100%;
+    	margin: 0;
 }
 
 ::selection {
@@ -182,15 +157,18 @@ nav {
 
 img {
 	display: block;
-	width: 95%;
 	margin: 0 auto;
 	margin-top: 3%;
 }
-
+.main-header {
+    	padding: 0;
+    	text-transform: none;
+}
+  
 h2 {
 	font-family: 'Open Sans';
 	text-align: center;
-  	font-weight: 400;
+	font-weight: 400;
 }
 
 h3 {
@@ -202,12 +180,20 @@ p {
 	font-family: "open sans";
 }
 
+#menu {
+  	width: 100%;
+}
 /*Strip the ul of padding and list styling*/
 ul {
-	list-style-type:none;
+	list-style-type: none;
+	display:flex;
+    	flex-wrap:nowrap;
 	margin: 0 auto;
+    	height: 52px;
 	padding:0;
 	position: absolute;
+    	border-bottom: solid 2px rgba(255, 255, 255, 0.6);
+    	background-color: rgba(255, 255, 255, 0);
 }
 
 /*Create a horizontal list with spacing*/
@@ -220,25 +206,26 @@ li {
 /*Style for menu links*/
 li a {
 	display:block;
-  	font-size: 12px;
-  	letter-spacing: 1px;
-  	font-weight: bold;
-  	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
 	min-width:140px;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
 	font-family: 'Open Sans';
-	color: #333;
+	color: #fff;
 	background: none;
 	text-decoration: none;
+    	transition: 0.4s;
 }
 
 /*Hover state for top level links*/
 li:hover a {
 	color:  #e12b00;
-  	border-bottom-style: solid;
-  	text-decoration: none;
+	border-bottom-style: solid;
+	text-decoration: none;
 }
 
 /*Style for dropdown links*/
@@ -277,6 +264,13 @@ li ul li a {
 ul li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
+.menu-logo img {
+    	padding-top: 11px;
+    	padding-left: 20px;
+}
+.menu-logo:hover a {
+    	border: none;
+}
 
 
 /*Style 'show menu' label button and hide it by default*/
@@ -298,12 +292,12 @@ input[type=checkbox]{
 
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
-   	display: block;
+	display: block;
 }
 
 #wrapper {
 	width: 80em;
-	height: 290em;
+	height: 3820;
 	margin: 0 auto;
 	max-width: 90%;
 	padding: 0 1em 1em 1em;
@@ -311,13 +305,14 @@ input[type=checkbox]:checked ~ #menu{
 
 #content {
 	border-radius: 10px;
-	display: block;
 	margin-top: 5%;
 	background-color: #EEE;
+	padding: 15px;
+	height:100%;
 	width: 90em;
 	width: 65%;
 	float: left;
-	height: 285em;
+	height:100%;
   	padding: 15px;
 }
 
@@ -346,45 +341,152 @@ input[type=checkbox]:checked ~ #menu{
 		display: block;
 		margin-top: 5%;
 		width: 100%;
+		height:100%;
 	}
 }
-
+#menu{
+	p
+}
 @media screen and (min-width: 760px)  and (max-width: 900px){
 	li a {
 		min-width: 83px;
-		font-size: 0.7em;
+		font-size: 65%;
 	}
 }
 
 @media screen and (min-width: 900px)  and (max-width: 1100px){
 	li a {
 		min-width: 90px;
-		font-size: 0.9em;
+		font-size: 80%;
 	}
 }
 
 @media screen and (min-width: 1100px)  and (max-width: 1300px){
 	li a {
 		min-width: 120px;
-		font-size: 1em;
+		font-size: 80%;
 	}
 }
 
 a {
 	text-decoration: none;
-	color: #e12b00;
+	color: #090;
 }
 
 a:hover {
 	text-decoration: underline;
 }
+
+  .top {
+  	background-image: url(images/fossasia2016.jpg);
+  	position: relative;
+  	width: 100%;
+  	min-width: 100%;
+  	min-height: auto;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-size: cover;
+  	-o-background-size: cover;
+  	background-position: center;
+  	text-align: center;
+  	color: white;
+  	padding-top: 130px;
+  	padding-bottom: 320px;
+  	z-index: -2;
+}
+.top:before {
+  	background-color: #000;
+  	opacity: 0.4;
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	content: '';
+  	z-index: -1;
+}
+.partners {
+ 	text-align: center;
+  	margin-bottom: 100px;
+  	background-color: #eee;
+}
+.partners .main-title  {
+  	margin-top: 0;
+}
+.buttons-top {
+  	position: absolute;
+  	text-align: center;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	top: 75%;
+}
+.btn-top {
+  	display: inline-block;
+  	min-width: 190px;
+  	padding: 13px 0 14px 0;
+  	color: #fff;
+  	border-radius: 25px;
+  	line-height: 1;
+  	font-weight: 600;
+  	transition: 0.5s;
+  	font-size: 15px;
+}
+.btn-1 {
+  	background-color: #e12b00;
+  	border: 3px solid #e12b00;
+}
+.btn-2 {
+  	border: 3px solid #fff;
+  	margin-left: 16px;
+}
+.btn-top:hover {
+  	text-decoration: none;
+}
+.btn-1:hover {
+  	background-color: #c82600;
+  	border-color: #c82600;
+  	color: #fff !important;
+}
+.btn-2:hover {
+  	background-color: #fff;
+  	color: #f82f00;
+}
+hr {
+  	width: 90%;
+  	border: 0;
+  	height: 1px;
+  	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.container {
+  	display: flex;
+  	background-color: #eee;
+  	justify-content: space-around;
+  	flex-wrap: wrap;
+}
+.col {
+  	margin: 20px;
+}
+
+@media (max-width:1150px) and (min-width: 768px) {
+  .buttons-top {
+    top: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .buttons-top {
+    top: 100%;
+  }
+
 	</style>
-<div id="wrapper">
 <header>
 	<nav>
 	<label for="show-menu" class="show-menu">Show Menu</label>
 	<input type="checkbox" id="show-menu" role="button" />
 	<ul id="menu">
+	    <li class="menu-logo"><a href="https://fossasia.org/">
+	        <img src="images/fossasia-logo-light.png" alt="fossasia-logo" width="110px">
+	    </a></li>
 		<li><a href="index.html">Home</a></li>
 		<li><a href="https://2014.fossasia.org/">FOSSASIA 2014</a></li>
 		<li><a href="about.html">About</a></li>
@@ -413,4 +515,3 @@ a:hover {
 	</ul>
 	</nav>
 </header>
-<div id="content">

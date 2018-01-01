@@ -3,7 +3,7 @@ layout: default
 title: Contact | FOSSASIA
 ---
 
-# Contact
+#Contact
 
 The best way to contact the FOSSASIA organization team is through our mailing list:
 
@@ -31,6 +31,6 @@ For group discussions we are using IRC:
 
 If you need to get in touch with the FOSSASIA committee, please contact:
 
-#### Hong Phuc Dang
+####Hong Phuc Dang
 FOSSASIA Organizer Saigon
 [hp@fossasia.org](mailto:hp@fossasia.org)
