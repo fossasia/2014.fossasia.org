@@ -15,16 +15,16 @@
 		h1 {
 			font-family: 'Open Sans';
 			font-weight: normal;
-        		text-transform: uppercase;
-    			letter-spacing: 3px;
-			padding-left: 300px;
+    			text-transform: uppercase;
+			letter-spacing: 3px;
+			text-align: center;
 		}
 
 		.partners .sponsor {
 			margin: 0 auto;
 			margin-top: 10%;
 			padding-bottom: 3%;
-            		width: 200px;
+    			width: 200px;
 			transition: 0.4s;
 		}
 
@@ -177,6 +177,8 @@ h3 {
 }
 
 p {
+	padding: 10px 100px;
+	text-align: center;
 	font-family: "open sans";
 }
 
@@ -296,24 +298,21 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 #wrapper {
-	width: 80em;
-	height: 3820;
+	width: 1170px;
 	margin: 0 auto;
 	max-width: 90%;
 	padding: 0 1em 1em 1em;
 }
 
 #content {
-	border-radius: 10px;
-	margin-top: 5%;
 	background-color: #EEE;
-	padding: 15px;
 	height:100%;
-	width: 90em;
-	width: 65%;
-	float: left;
+	margin: auto;
 	height:100%;
   	padding: 15px;
+}
+table {
+	margin: auto;
 }
 
 /*Responsive Styles*/
@@ -370,29 +369,34 @@ input[type=checkbox]:checked ~ #menu{
 
 a {
 	text-decoration: none;
-	color: #090;
+	color: #e12b00cc;
+	font-weight: bold;
+	font-family: Open Sans;
+	margin-bottom: 10px;
+	border-bottom: 2px solid;
+	font-size: 13px;
+	transition: 0.3s;
 }
-
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	color: #e12b00;
 }
-
-  .top {
-  	background-image: url(images/fossasia2016.jpg);
-  	position: relative;
-  	width: 100%;
-  	min-width: 100%;
-  	min-height: auto;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	background-size: cover;
-  	-o-background-size: cover;
-  	background-position: center;
-  	text-align: center;
-  	color: white;
-  	padding-top: 130px;
-  	padding-bottom: 320px;
-  	z-index: -2;
+.top {
+	background-image: url(images/fossasia2016.jpg);
+	position: relative;
+	width: 100%;
+	min-width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding-top: 130px;
+	padding-bottom: 320px;
+	z-index: -2;
 }
 .top:before {
   	background-color: #000;
@@ -407,7 +411,6 @@ a:hover {
 }
 .partners {
  	text-align: center;
-  	margin-bottom: 100px;
   	background-color: #eee;
 }
 .partners .main-title  {
@@ -419,7 +422,7 @@ a:hover {
   	left: 0;
   	right: 0;
   	margin: auto;
-  	top: 75%;
+  	top: 50%;
 }
 .btn-top {
   	display: inline-block;
@@ -460,25 +463,17 @@ hr {
 }
 .container {
   	display: flex;
-  	background-color: #eee;
+  	background-color: #fff;
   	justify-content: space-around;
   	flex-wrap: wrap;
 }
 .col {
   	margin: 20px;
 }
-
-@media (max-width:1150px) and (min-width: 768px) {
-  .buttons-top {
-    top: 90%;
-  }
+.partners {
+	margin-bottom: 5px;
 }
-@media (max-width: 768px) {
-  .buttons-top {
-    top: 100%;
-  }
-
-	</style>
+</style>
 <header>
 	<nav>
 	<label for="show-menu" class="show-menu">Show Menu</label>
