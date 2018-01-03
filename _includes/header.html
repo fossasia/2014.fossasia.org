@@ -12,12 +12,8 @@
 			padding: 0px;
 		}
 
-		h1 {
-			font-family: 'Open Sans';
-			font-weight: normal;
-    			text-transform: uppercase;
-			letter-spacing: 3px;
-			text-align: center;
+		.main-header {
+			color: #FFF;
 		}
 
 		.partners .sponsor {
@@ -160,142 +156,6 @@ img {
 	margin: 0 auto;
 	margin-top: 3%;
 }
-.main-header {
-    	padding: 0;
-    	text-transform: none;
-}
-  
-h2 {
-	font-family: 'Open Sans';
-	text-align: center;
-	font-weight: 400;
-}
-
-h3 {
-	text-align: left;
-	font-family: 'Droid Sans';
-}
-
-p {
-	padding: 10px 100px;
-	text-align: center;
-	font-family: "open sans";
-}
-
-#menu {
-  	width: 100%;
-}
-/*Strip the ul of padding and list styling*/
-ul {
-	list-style-type: none;
-	display:flex;
-    	flex-wrap:nowrap;
-	margin: 0 auto;
-    	height: 52px;
-	padding:0;
-	position: absolute;
-    	border-bottom: solid 2px rgba(255, 255, 255, 0.6);
-    	background-color: rgba(255, 255, 255, 0);
-}
-
-/*Create a horizontal list with spacing*/
-li {
-	display:inline-block;
-	float: left;
-	margin-right: 1px;
-}
-
-/*Style for menu links*/
-li a {
-	display:block;
-	font-size: 11px;
-	letter-spacing: 1px;
-	font-weight: bold;
-	text-transform: uppercase;
-	min-width:140px;
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
-	font-family: 'Open Sans';
-	color: #fff;
-	background: none;
-	text-decoration: none;
-    	transition: 0.4s;
-}
-
-/*Hover state for top level links*/
-li:hover a {
-	color:  #e12b00;
-	border-bottom-style: solid;
-	text-decoration: none;
-}
-
-/*Style for dropdown links*/
-li:hover ul a {
-	background: #00000080;
-	color: #fff;
-	height: 40px;
-	line-height: 40px;
-	border: none;
-}
-
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
-	background-color: #e12b00;
-}
-
-/*Hide dropdown links until they are needed*/
-li ul {
-	display: none;
-}
-
-/*Make dropdown links vertical*/
-li ul li {
-	display: block;
-	float: none;
-}
-
-/*Prevent text wrapping*/
-li ul li a {
-	width: auto;
-	min-width: 100px;
-	padding: 0 20px;
-}
-
-/*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
-	display: block;
-}
-.menu-logo img {
-    	padding-top: 11px;
-    	padding-left: 20px;
-}
-.menu-logo:hover a {
-    	border: none;
-}
-
-
-/*Style 'show menu' label button and hide it by default*/
-.show-menu {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	color: #fff;
-	background: #19c589;
-	text-align: center;
-	padding: 10px 0;
-	display: none;
-}
-
-/*Hide checkbox*/
-input[type=checkbox]{
-    	display: none;
-    	-webkit-appearance: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
-	display: block;
-}
 
 #wrapper {
 	width: 1170px;
@@ -315,71 +175,6 @@ table {
 	margin: auto;
 }
 
-/*Responsive Styles*/
-
-@media screen and (min-width: 20px) and (max-width : 760px){
-	/*Make dropdown links appear inline*/
-	ul {
-		position: static;
-		display: none;
-	}
-	/*Create vertical spacing*/
-	li {
-		margin-bottom: 1px;
-	}
-	/*Make all menu links full width*/
-	ul li, li a {
-		width: 100%;
-	}
-	/*Display 'show menu' link*/
-	.show-menu {
-		display: block;
-	}
-
-	#content {
-		display: block;
-		margin-top: 5%;
-		width: 100%;
-		height:100%;
-	}
-}
-#menu{
-	p
-}
-@media screen and (min-width: 760px)  and (max-width: 900px){
-	li a {
-		min-width: 83px;
-		font-size: 65%;
-	}
-}
-
-@media screen and (min-width: 900px)  and (max-width: 1100px){
-	li a {
-		min-width: 90px;
-		font-size: 80%;
-	}
-}
-
-@media screen and (min-width: 1100px)  and (max-width: 1300px){
-	li a {
-		min-width: 120px;
-		font-size: 80%;
-	}
-}
-
-a {
-	text-decoration: none;
-	color: #e12b00cc;
-	font-weight: bold;
-	font-family: Open Sans;
-	margin-bottom: 10px;
-	font-size: 13px;
-	transition: 0.3s;
-}
-a:hover {
-	text-decoration: none;
-	color: #e12b00;
-}
 .top {
 	background-image: url(images/fossasia2016.jpg);
 	position: relative;
@@ -414,14 +209,6 @@ a:hover {
 }
 .partners .main-title  {
   	margin-top: 0;
-}
-.buttons-top {
-  	position: absolute;
-  	text-align: center;
-  	left: 0;
-  	right: 0;
-  	margin: auto;
-  	top: 50%;
 }
 .btn-top {
   	display: inline-block;
@@ -460,12 +247,6 @@ hr {
   	height: 1px;
   	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-.container {
-  	display: flex;
-  	background-color: #fff;
-  	justify-content: space-around;
-  	flex-wrap: wrap;
-}
 .col {
   	margin: 20px;
 }
@@ -499,39 +280,78 @@ div hr{
 }
 
 </style>
-<header>
-	<nav>
-	<label for="show-menu" class="show-menu">Show Menu</label>
-	<input type="checkbox" id="show-menu" role="button" />
-	<ul id="menu">
-	    <li class="menu-logo"><a href="https://fossasia.org/">
-	        <img src="images/fossasia-logo-light.png" alt="fossasia-logo" width="110px">
-	    </a></li>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="https://2014.fossasia.org/">FOSSASIA 2014</a></li>
-		<li><a href="about.html">About</a></li>
-		<li>
-			<a href="friday.html">Agenda &#65516;</a>
-			<ul class="hidden">
-				<li><a href="friday.html">Friday Opening and Keynotes</a></li>
-				<li><a href="schedule.html">Schedule Friday</a></li>
-				<li><a href="saturday.html">Saturday</a></li>
-				<li><a href="sunday.html">Sunday hands on lab</a></li>
-				<li><a href="schedule.pdf" target="_blank">PDF Download Schedule</a></li>
-			</ul>
-		</li>
-		<li>
-			<a href="javascript:void(0);">External &#65516;</a>
-			<ul class="hidden">
-				<li><a href="http://groups.google.com/group/fossasia">Mailing List</a></li>
-				<li><a href="http://blog.fossasia.org/gsoc-ideas-2014">GSoS</a></li>
-				<li><a href="http://blog.fossasia.org/">Blog</a></li>
-				<li><a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags">Flickr</a></li>
-			</ul>
-		</li>
-		<li><a href="contact.html">Contact</a></li>
-		<li><a href="venue.html">Venue</a></li>
-		<li><a href="location.html">Location &amp; Visa</a></li>
-	</ul>
-	</nav>
-</header>
+<div class="nav-container">
+    <nav class="overlay-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a  target="_self" class="inner-link" href="./"><img alt="FOSSASIA" class="logo logo-light" src="images/fossasia-logo-light.png">
+                    <img alt="FOSSASIA" class="logo logo-dark" src="images/fossasia-logo-dark.png"></a>
+                </div>
+
+                <div class="col-md-10 text-right">
+                    <ul class="menu">
+                        <li><a href="about.html">About</a></li>
+                        <li class="has-dropdown"><a href="friday.html">Agenda</a>
+                        <ul class="nav-dropdown" style="min-height: 150px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+                            <li><a href="friday.html">Friday Opening and Keynotes</a></li>
+                            <li><a href="schedule.html">Schedule Friday</a></li>
+                            <li><a href="saturday.html">Saturday</a></li>
+                            <li><a href="sunday.html">Sunday hands on lab</a></li>
+                            <li><a href="schedule.pdf" target="_blank">Download Schedule</a></li>
+                        </ul>
+                        <li class="has-dropdown"><a href="javascript:void(0);">External</a>
+                        <ul class="nav-dropdown" style="min-height: 125px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+                            <li><a href="http://groups.google.com/group/fossasia">Mailing List</a></li>
+                            <li><a href="http://blog.fossasia.org/gsoc-ideas-2014">GSoS</a></li>
+                            <li><a href="http://blog.fossasia.org/">Blog</a></li>
+                            <li><a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags">Flickr</a></li>
+                        </ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="venue.html">Venue</a></li>
+                        <li><a href="location.html">Location &amp; Visa</a></li>
+                    </ul>
+                    <div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
+                    <div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="bottom-border"></div>
+
+        <div class="sidebar-menu">
+            <img alt="Logo" class="logo" src="images/fossasia-logo-light.png">
+            <div class="bottom-border"></div>
+            <div class="widget">
+                <ul class="menu">
+                    <li><a class="inner-link" href="#top">Home</a></li>
+                    <li><a href="./about" target="_self">About</a></li>
+                    <li><a href="http://eventyay.com" target="_self">Event Management</a></li>									
+                    <li><a class="inner-link" href="#labs" target="_self">Labs &amp; Code</a></li>
+                    <li><a href="http://github.com/fossasia" target="_self">Contribute</a></li>
+                    <!-- <li><a class="inner-link" href="#support" target="_self">Support</a></li><li><a class="inner-link" href="#subscribe" target="_self">Subscribe</a></li> -->
+                    <li><a href="http://2018.fossasia.org" target="_self">FOSSASIA Summit'18</a></li>
+                    <li><a href="http://blog.fossasia.org" target="_self">Blog</a></li>
+                    <li><a href="./donate/" target="self">Donate</a></li>
+                    <li><a href="https://groups.google.com/group/fossasia" target="_self">Mailing List</a></li>
+                    <li><a href="http://blog.fossasia.org/contact/" target="_self">Contact</a></li>
+                </ul>
+            </div>
+            <div class="widget">
+                <ul class="social-profiles">
+                    <li><a href="http://twitter.com/fossasia" target="_self"><i class="icon social_twitter"></i></a></li>
+                    <li><a href="http://facebook.com/fossasia" target="_self"><i class="icon social_facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ" target="_self"><i class="icon social_youtube icon-large"></i></a></li>
+                    <li><a href="https://www.flickr.com/photos/fossasia/" target="_self"><i class="icon social_flickr"></i></a></li>
+                    <li><a href="https://www.instagram.com/explore/tags/fossasia/" target="_self"><i class="icon social_instagram"></i></a></li>
+                    <li><a href="https://github.com/fossasia" target="_self" ><i class="fa fa-github fa-lg"></i></a></li>
+                </ul>
+            </div>		
+            <div class="copy-text-box">
+                <div class="copy-text-bottom">
+                    <span>© Copyright 2016 Creative Commons By License, FOSSASIA</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
