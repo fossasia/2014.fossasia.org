@@ -8,18 +8,47 @@ title: Friday February 28 - Opening and Keynotes | FOSSASIA
 ![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
-.tg .tg-8xqh{font-weight:bold;background-color:#c0c0c0}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg .tg-s6z2 {
+  text-align: center;
+}
+.tg .tg-ipa1 {
+  font-weight: bold;
+  background-color: #c0c0c0;
+  text-align: center;
+}
+.tg .tg-8xqh {
+  font-weight: bold;
+  background-color: #c0c0c0;
+}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 700px auto;">
-<colgroup>
-<col style="width: 116.19999998807907px">
-<col style="width: 584.1999999880791px">
-</colgroup>
+  <colgroup>
+    <col style="width: 116.19999998807907px">
+    <col style="width: 584.1999999880791px">
+  </colgroup>
   <tr>
     <th class="tg-ipa1">Time</th>
     <th class="tg-8xqh">Main Hall</th>

@@ -20,20 +20,46 @@ title: Schedule Saturday March 1 | FOSSASIA
 ####Day 2, Track 1-4
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg .tg-s6z2 {
+  text-align: center;
+}
+.tg .tg-ipa1 {
+  font-weight: bold;
+  background-color: #c0c0c0;
+  text-align: center;
+}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 835px auto;">
-<colgroup>
-<col style="width: 92.19999998807907px">
-<col style="width: 211.19999998807907px">
-<col style="width: 176.19999998807907px">
-<col style="width: 175.19999998807907px">
-<col style="width: 180.19999998807907px">
-</colgroup>
+  <colgroup>
+    <col style="width: 92.19999998807907px">
+    <col style="width: 211.19999998807907px">
+    <col style="width: 176.19999998807907px">
+    <col style="width: 175.19999998807907px">
+    <col style="width: 180.19999998807907px">
+  </colgroup>
   <tr>
     <th class="tg-ipa1">Time</th>
     <th class="tg-ipa1">Main Hall</th>
@@ -161,6 +187,7 @@ title: Schedule Saturday March 1 | FOSSASIA
     <td class="tg-031e"></td>
   </tr>
 </table>
+
 ![Speaker 2](images/speaker2.jpg "Speaker 2")
 ![FOSSASIA Group](images/fossasia_group9.jpg "FOSSASIA Group")
 ![Speaker 3](images/speaker3.jpg "Speaker 3")
@@ -169,20 +196,46 @@ title: Schedule Saturday March 1 | FOSSASIA
 ####Day 2, Track 5-8
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg .tg-s6z2 {
+  text-align: center;
+}
+.tg .tg-ipa1 {
+  font-weight: bold;
+  background-color: #c0c0c0;
+  text-align: center;
+}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 835px">
-<colgroup>
-<col style="width: 92.19999998807907px">
-<col style="width: 211.19999998807907px">
-<col style="width: 176.19999998807907px">
-<col style="width: 175.19999998807907px">
-<col style="width: 180.19999998807907px">
-</colgroup>
+  <colgroup>
+    <col style="width: 92.19999998807907px">
+    <col style="width: 211.19999998807907px">
+    <col style="width: 176.19999998807907px">
+    <col style="width: 175.19999998807907px">
+    <col style="width: 180.19999998807907px">
+  </colgroup>
   <tr>
     <th class="tg-ipa1">Time</th>
     <th class="tg-ipa1">Development, Deployment, Security</th>

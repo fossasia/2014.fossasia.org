@@ -10,14 +10,49 @@ title: FOSSASIA 2014 - Hands-On Lab Sunday March 2
 ##Hands-on Labs, Open Institute Phnom Penh
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-2thk{background-color:#c0c0c0;text-align:center}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
-.tg .tg-hy62{background-color:#c0c0c0}
-.tg .tg-tkkh{background-color:#c0c0c0;text-align:right}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg .tg-2thk {
+  background-color: #c0c0c0;
+  text-align: center;
+}
+.tg .tg-s6z2 {
+  text-align: center;
+}
+.tg .tg-ipa1 {
+  font-weight: bold;
+  background-color: #c0c0c0;
+  text-align: center;
+}
+.tg .tg-hy62 {
+  background-color: #c0c0c0;
+}
+.tg .tg-tkkh {
+  background-color: #c0c0c0;
+  text-align: right;
+}
+
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 846px auto;">
 <colgroup>
