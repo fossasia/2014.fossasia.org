@@ -1,3 +1,5 @@
+# Container builds to maximize speed
+sudo: false
 language: ruby
 
 before_install:
