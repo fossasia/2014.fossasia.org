@@ -10,20 +10,46 @@ title: Schedule Friday February 28
 ####Day - Track 1-4
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+.tg .tg-s6z2 {
+  text-align: center;
+}
+.tg .tg-ipa1 {
+  font-weight: bold;
+  background-color: #c0c0c0;
+  text-align: center;
+}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 828px auto;">
-<colgroup>
-<col style="width: 86.19999998807907px">
-<col style="width: 204.19999998807907px">
-<col style="width: 182.19999998807907px">
-<col style="width: 178.19999998807907px">
-<col style="width: 177.19999998807907px">
-</colgroup>
+  <colgroup>
+    <col style="width: 86.19999998807907px">
+    <col style="width: 204.19999998807907px">
+    <col style="width: 182.19999998807907px">
+    <col style="width: 178.19999998807907px">
+    <col style="width: 177.19999998807907px">
+  </colgroup>
   <tr>
     <th class="tg-ipa1">Time</th>
     <th class="tg-ipa1">Main Hall</th>
@@ -95,7 +121,6 @@ title: Schedule Friday February 28
     <td class="tg-031e"></td>
   </tr>
 </table>
-
 ![Classroom](images/classroom.jpg "Classroom")
 ![Speaker](images/speaker.jpg "speaker")
 ![FOSSASIA Group](images/fossasia_group8.jpg "FOSSASIA Group")

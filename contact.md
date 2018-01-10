@@ -13,19 +13,18 @@ You can join the community on social networks:
 
 <div class="di">
   <p>
-   <a href="https://plus.google.com/u/0/108920596016838318216"><i class="fa fa-google-plus fa-2x itf" id="new"></i></a>
+    <a href="https://plus.google.com/u/0/108920596016838318216"><i class="fa fa-google-plus fa-2x itf" id="new"></i></a>
 
-   <a href="https://www.facebook.com/fossasia"><i class="fa fa-facebook fa-2x itf" id="new"></i></a>
+    <a href="https://www.facebook.com/fossasia"><i class="fa fa-facebook fa-2x itf" id="new"></i></a>
 
-   <a href="https://www.instagram.com/fossasia/?hl=en"><i class="fa fa-instagram fa-2x itf" id="new"></i></a>
+    <a href="https://www.instagram.com/fossasia/?hl=en"><i class="fa fa-instagram fa-2x itf" id="new"></i></a>
 
-   <a href="https://twitter.com/fossasia"><i class="fa fa-twitter fa-2x itf" id="new"></i></a>
+    <a href="https://twitter.com/fossasia"><i class="fa fa-twitter fa-2x itf" id="new"></i></a>
 
-   <a href="https://www.youtube.com/channel/channel/UCQprMsG-raCIMlBudm20iLQ"><i class="fa fa-youtube fa-2x itf" id="new"></i></a>
+    <a href="https://www.youtube.com/channel/channel/UCQprMsG-raCIMlBudm20iLQ"><i class="fa fa-youtube fa-2x itf" id="new"></i></a>
   </p>
 
 </div>
-
 Contribute at: 
 
 <a href="https://github.com/fossasia"><i class="fa fa-github fa-2x dif" style="color:#000;" id="new"></i></a>

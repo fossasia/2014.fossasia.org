@@ -1,370 +1,377 @@
 <body>
-	<style scoped>
-	.partners h1 {
-		margin-top: 70px;
-		text-align: center;
-		background: none;
-		color: #333;
-		text-transform: none;
-		letter-spacing: 0;
-		padding: 0px;
-	}
+<style scoped>
+.partners h1 {
+  margin-top: 70px;
+  text-align: center;
+  background: none;
+  color: #333;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0px;
+}
 
-	.main-header {
-		color: #FFF;
-	}
+.main-header {
+  color: #fff;
+}
 
-	.partners .sponsor {
-		margin: 0 auto;
-		margin-top: 10%;
-		padding-bottom: 3%;
-		width: 200px;
-		transition: 0.4s;
-		height: auto;
-	}
+.partners .sponsor {
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-bottom: 3%;
+  width: 200px;
+  transition: 0.4s;
+  height: auto;
+}
 
-	.partners .sponsor:hover {
-		width: 240px;
-	}
-	.newsletter-form {
-		background-image: url(images/fossasia_group6.jpg);
-		background-size: cover;
-		padding: 50px 0;
-		width: 100%;
-		position: relative;
-		z-index: 1;
-	}
-	.newsletter-form:before {
-		background-color: rgba(0, 0, 0, 0.4);
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		content: '\A';
-		position: absolute;
-		z-index: 0;
-	}
-	.newsletter-form h1 {
-		color: #fff;
-	}
-	.newsletter-form * {
-		position: relative;
-	}
+.partners .sponsor:hover {
+  width: 240px;
+}
+.newsletter-form {
+  background-image: url(images/fossasia_group6.jpg);
+  background-size: cover;
+  padding: 50px 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.newsletter-form:before {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "\A";
+  position: absolute;
+  z-index: 0;
+}
+.newsletter-form h1 {
+  color: #fff;
+}
+.newsletter-form * {
+  position: relative;
+}
 
-	#mc_embed_signup form {
-		display: block;
-		position: relative;
-		text-align: left;
-		padding: 10px 0px 10px 3%;
-	}
+#mc_embed_signup form {
+  display: block;
+  position: relative;
+  text-align: left;
+  padding: 10px 0px 10px 3%;
+}
 
-	#mc_embed_signup {
-		background: #fff;
-		clear: left;
-		font: 14px Helvetica,Arial,sans-serif;
-	}
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
 
-	#mc_embed_signup_scroll {
-		padding-top: 15px;
-	}
+#mc_embed_signup_scroll {
+  padding-top: 15px;
+}
 
-	#mce-EMAIL {
-		font: 14px 'raleway';
-		letter-spacing: 1px;
-		border: none;
-		background-color: rgba(238, 238, 238, 0.6);
-		padding-left: 5px;
-		margin: 0 auto;
-		height: 35px;
-	}
+#mce-EMAIL {
+  font: 14px "raleway";
+  letter-spacing: 1px;
+  border: none;
+  background-color: rgba(238, 238, 238, 0.6);
+  padding-left: 5px;
+  margin: 0 auto;
+  height: 35px;
+}
 
-	#mc-embedded-subscribe {
-		display: block;
-		margin: 0 auto;
-		width: 220px;
-		height: 45px;
-		margin-top: 5%;
-		background-color: #e12b00;
-		border-radius: 25px;
-		border: none;
-		color: #fff;
-		font-weight: 600;
-		transition: 0.4s;
-		cursor: pointer;
-	}
+#mc-embedded-subscribe {
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+  height: 45px;
+  margin-top: 5%;
+  background-color: #e12b00;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.4s;
+  cursor: pointer;
+}
 
-	#mc-embedded-subscribe:hover {
-		border-style: solid;
-		border-color: #e12b00;
-		background-color: rgba(238, 238, 238, 0.2);
-	}
+#mc-embedded-subscribe:hover {
+  border-style: solid;
+  border-color: #e12b00;
+  background-color: rgba(238, 238, 238, 0.2);
+}
 
-	form {
-		margin: 0;
-	}
-	
-	.bg-newsletter {
-		background: rgba(0, 0, 0, 0) url("images/fossasia_group6.jpg") repeat scroll 50% 0%;
-		transform: translate3d(0px, -52.4934px, 0px);
-	}
-	
-	.subscribe-1 .email-subscribe {
-		margin-bottom: 50px !important;
-	}
-	
-	.tweets-feed {
-		color: #FFFFFF;
-		line-height: 25px;
-		font-size: 20px;
-		transition: opacity 0.2s linear;
-		margin-bottom: 20px;
-		height: 250px;
-	}
+form {
+  margin: 0;
+}
 
-	friends-href {
-		text-align: center;
-		display: block;
-		text-decoration: none;
-		margin: 0 auto;
-	}
+.bg-newsletter {
+  background: rgba(0, 0, 0, 0) url("images/fossasia_group6.jpg") repeat scroll
+    50% 0%;
+  transform: translate3d(0px, -52.4934px, 0px);
+}
 
-	.flickr-image {
-		float: left;
-		height: 100px;
-		margin-left: 2%;
-		width: 30%;
-	}
+.subscribe-1 .email-subscribe {
+  margin-bottom: 50px !important;
+}
 
-	::selection {
-		color: #FFF;
-		background-color: #33CCFF;
-	}
+.tweets-feed {
+  color: #ffffff;
+  line-height: 25px;
+  font-size: 20px;
+  transition: opacity 0.2s linear;
+  margin-bottom: 20px;
+  height: 250px;
+}
 
-	-webkit-::selection {
-		color: #FFF;
-		background-color: #33CCFF;
-	}
+friends-href {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+}
 
-	-msie-::selection {
-		color: #FFF;
-		background-color: #33CCFF;
-	}
+.flickr-image {
+  float: left;
+  height: 100px;
+  margin-left: 2%;
+  width: 30%;
+}
 
-	-moz-::selection {
-		color: #FFF;
-		background-color: #33CCFF;
-	}
+::selection {
+  color: #fff;
+  background-color: #33ccff;
+}
 
-	-o-::selection {
-		color: #FFF;
-		background-color: #33CCFF;
-	}
+-webkit-::selection {
+  color: #fff;
+  background-color: #33ccff;
+}
 
-	img {
-		display: block;
-		margin: 0 auto;
-		margin-top: 3%;
-	}
+-msie-::selection {
+  color: #fff;
+  background-color: #33ccff;
+}
 
-	#wrapper {
-		width: 1170px;
-		margin: 0 auto;
-		max-width: 90%;
-		padding: 0 1em 1em 1em;
-	}
+-moz-::selection {
+  color: #fff;
+  background-color: #33ccff;
+}
 
-	#content {
-		background-color: #EEE;
-		height:100%;
-		margin: auto;
-		height:100%;
-		padding: 15px;
-	}
-	table {
-		margin: auto;
-	}
+-o-::selection {
+  color: #fff;
+  background-color: #33ccff;
+}
 
-	.top {
-		background-image: url(images/fossasia2016.jpg);
-		position: relative;
-		width: 100%;
-		min-width: 100%;
-		min-height: auto;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-		-o-background-size: cover;
-		background-position: center;
-		text-align: center;
-		color: white;
-		padding-top: 130px;
-		padding-bottom: 320px;
-		z-index: -2;
-	}
-	.top:before {
-		background-color: #000;
-		opacity: 0.4;
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		content: '';
-		z-index: -1;
-	}
-	.partners {
-		text-align: center;
-		background-color: #eee;
-	}
-	.partners .main-title  {
-		margin-top: 0;
-	}
-	.container-flex {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-	}
-	.btn-top {
-		display: inline-block;
-		min-width: 190px;
-		padding: 13px 0 14px 0;
-		color: #fff;
-		border-radius: 25px;
-		line-height: 1;
-		font-weight: 600;
-		transition: 0.5s;
-		font-size: 15px;
-	}
-	.btn-1 {
-		background-color: #e12b00;
-		border: 3px solid #e12b00;
-	}
-	.btn-2 {
-		border: 3px solid #fff;
-		margin-left: 16px;
-	}
-	.btn-top:hover {
-		text-decoration: none;
-	}
-	.btn-1:hover {
-		background-color: #c82600;
-		border-color: #c82600;
-		color: #fff !important;
-	}
-	.btn-2:hover {
-		background-color: #fff;
-		color: #f82f00;
-	}
-	hr {
-		width: 90%;
-		border: 0;
-		height: 1px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	}
-	.col {
-		margin: 20px;
-	}
-	.partners {
-		margin-bottom: 5px;
-	}
-	i{
-		border:none;
-		text-align:center;
-	}
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
+}
 
-	.itf{
-		color: #000;
-		text-align:center;
-		border-bottom:none;
-		margin-right:10px;
-	}
-	#new{
-		border-bottom:none;	
-	}
-	.dif{
-		align-self:center;
-	}
-	#neft{
-		text-align:left;
-	}	
-	div hr{
-		color:#E7E3E2;
-		width:150px;
-		
-	}
+#wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0 1em 1em 1em;
+}
+
+#content {
+  background-color: #eee;
+  height: 100%;
+  margin: auto;
+  height: 100%;
+  padding: 15px;
+}
+table {
+  margin: auto;
+}
+
+.top {
+  background-image: url(images/fossasia2016.jpg);
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 320px;
+  z-index: -2;
+}
+.top:before {
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
+}
+.partners {
+  text-align: center;
+  background-color: #eee;
+}
+.partners .main-title {
+  margin-top: 0;
+}
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.btn-top {
+  display: inline-block;
+  min-width: 190px;
+  padding: 13px 0 14px 0;
+  color: #fff;
+  border-radius: 25px;
+  line-height: 1;
+  font-weight: 600;
+  transition: 0.5s;
+  font-size: 15px;
+}
+.btn-1 {
+  background-color: #e12b00;
+  border: 3px solid #e12b00;
+}
+.btn-2 {
+  border: 3px solid #fff;
+  margin-left: 16px;
+}
+.btn-top:hover {
+  text-decoration: none;
+}
+.btn-1:hover {
+  background-color: #c82600;
+  border-color: #c82600;
+  color: #fff !important;
+}
+.btn-2:hover {
+  background-color: #fff;
+  color: #f82f00;
+}
+hr {
+  width: 90%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.col {
+  margin: 20px;
+}
+.partners {
+  margin-bottom: 5px;
+}
+i {
+  border: none;
+  text-align: center;
+}
+
+.itf {
+  color: #000;
+  text-align: center;
+  border-bottom: none;
+  margin-right: 10px;
+}
+#new {
+  border-bottom: none;
+}
+.dif {
+  align-self: center;
+}
+#neft {
+  text-align: left;
+}
+div hr {
+  color: #e7e3e2;
+  width: 150px;
+}
 
 </style>
 <div class="nav-container">
-	<nav class="overlay-nav">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-2">
-					<a  target="_self" class="inner-link" href="./"><img alt="FOSSASIA" class="logo logo-light" src="images/fossasia-logo-light.png">
+  <nav class="overlay-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <a target="_self" class="inner-link" href="./"><img alt="FOSSASIA" class="logo logo-light" src="images/fossasia-logo-light.png">
 						<img alt="FOSSASIA" class="logo logo-dark" src="images/fossasia-logo-dark.png"></a>
-					</div>
+        </div>
 
-					<div class="col-md-10 text-right">
-						<ul class="menu">
-							<li><a href="about.html">About</a></li>
-							<li class="has-dropdown"><a href="friday.html">Agenda</a>
-								<ul class="nav-dropdown" style="min-height: 150px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
-									<li><a href="friday.html">Friday Opening and Keynotes</a></li>
-									<li><a href="schedule.html">Schedule Friday</a></li>
-									<li><a href="saturday.html">Saturday</a></li>
-									<li><a href="sunday.html">Sunday hands on lab</a></li>
-									<li><a href="schedule.pdf" target="_blank">Download Schedule</a></li>
-								</ul>
-								<li class="has-dropdown"><a href="javascript:void(0);">External</a>
-									<ul class="nav-dropdown" style="min-height: 100px"> <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
-										<li><a href="http://groups.google.com/group/fossasia">Mailing List</a></li>
-										<li><a href="http://blog.fossasia.org/gsoc-ideas-2014">GSoS</a></li>
-										<li><a href="http://blog.fossasia.org/">Blog</a></li>
-									</ul>
-									<li><a href="contact.html">Contact</a></li>
-									<li><a href="venue.html">Venue</a></li>
-									<li><a href="location.html">Location &amp; Visa</a></li>
-								</ul>
-								<div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
-								<div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
-							</div>
+        <div class="col-md-10 text-right">
+          <ul class="menu">
+            <li><a href="about.html">About</a></li>
+            <li class="has-dropdown"><a href="friday.html">Agenda</a>
+              <ul class="nav-dropdown" style="min-height: 150px">
+                <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+                <li><a href="friday.html">Friday Opening and Keynotes</a></li>
+                <li><a href="schedule.html">Schedule Friday</a></li>
+                <li><a href="saturday.html">Saturday</a></li>
+                <li><a href="sunday.html">Sunday hands on lab</a></li>
+                <li><a href="schedule.pdf" target="_blank">Download Schedule</a></li>
+              </ul>
+              <li class="has-dropdown"><a href="javascript:void(0);">External</a>
+                <ul class="nav-dropdown" style="min-height: 100px">
+                  <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+                  <li><a href="http://groups.google.com/group/fossasia">Mailing List</a></li>
+                  <li><a href="http://blog.fossasia.org/gsoc-ideas-2014">GSoS</a></li>
+                  <li><a href="http://blog.fossasia.org/">Blog</a></li>
+                </ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="venue.html">Venue</a></li>
+                <li><a href="location.html">Location &amp; Visa</a></li>
+          </ul>
+          <div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
+          <div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
+        </div>
 
-						</div>
-					</div>
-					<div class="bottom-border"></div>
+      </div>
+    </div>
+    <div class="bottom-border"></div>
 
-					<div class="sidebar-menu">
-						<img alt="Logo" class="logo" src="images/fossasia-logo-light.png">
-						<div class="bottom-border"></div>
-						<div class="widget">
-							<ul class="menu">
-								<li><a class="inner-link" href="#top">Home</a></li>
-								<li><a href="./about" target="_self">About</a></li>
-								<li><a href="http://eventyay.com" target="_self">Event Management</a></li>									
-								<li><a class="inner-link" href="#labs" target="_self">Labs &amp; Code</a></li>
-								<li><a href="http://github.com/fossasia" target="_self">Contribute</a></li>
-								<!-- <li><a class="inner-link" href="#support" target="_self">Support</a></li><li><a class="inner-link" href="#subscribe" target="_self">Subscribe</a></li> -->
-								<li><a href="http://2018.fossasia.org" target="_self">FOSSASIA Summit'18</a></li>
-								<li><a href="http://blog.fossasia.org" target="_self">Blog</a></li>
-								<li><a href="./donate/" target="self">Donate</a></li>
-								<li><a href="https://groups.google.com/group/fossasia" target="_self">Mailing List</a></li>
-								<li><a href="http://blog.fossasia.org/contact/" target="_self">Contact</a></li>
-							</ul>
-						</div>
-						<div class="widget">
-							<ul class="social-profiles">
-								<li><a href="http://twitter.com/fossasia" target="_self"><i class="icon social_twitter"></i></a></li>
-								<li><a href="http://facebook.com/fossasia" target="_self"><i class="icon social_facebook"></i></a></li>
-								<li><a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ" target="_self"><i class="icon social_youtube icon-large"></i></a></li>
-								<li><a href="https://www.flickr.com/photos/fossasia/" target="_self"><i class="icon social_flickr"></i></a></li>
-								<li><a href="https://www.instagram.com/explore/tags/fossasia/" target="_self"><i class="icon social_instagram"></i></a></li>
-								<li><a href="https://github.com/fossasia" target="_self" ><i class="fa fa-github fa-lg"></i></a></li>
-							</ul>
-						</div>		
-						<div class="copy-text-box">
-							<div class="copy-text-bottom">
-								<span>© Copyright 2016 Creative Commons By License, FOSSASIA</span>
-							</div>
-						</div>
-					</div>
-				</nav>
-			</div>
+    <div class="sidebar-menu">
+      <img alt="Logo" class="logo" src="images/fossasia-logo-light.png">
+      <div class="bottom-border"></div>
+      <div class="widget">
+        <ul class="menu">
+          <li><a class="inner-link" href="#top">Home</a></li>
+          <li><a href="./about" target="_self">About</a></li>
+          <li><a href="http://eventyay.com" target="_self">Event Management</a></li>
+          <li><a class="inner-link" href="#labs" target="_self">Labs &amp; Code</a></li>
+          <li><a href="http://github.com/fossasia" target="_self">Contribute</a></li>
+          <!-- <li><a class="inner-link" href="#support" target="_self">Support</a></li><li><a class="inner-link" href="#subscribe" target="_self">Subscribe</a></li> -->
+          <li><a href="http://2018.fossasia.org" target="_self">FOSSASIA Summit'18</a></li>
+          <li><a href="http://blog.fossasia.org" target="_self">Blog</a></li>
+          <li><a href="./donate/" target="self">Donate</a></li>
+          <li><a href="https://groups.google.com/group/fossasia" target="_self">Mailing List</a></li>
+          <li><a href="http://blog.fossasia.org/contact/" target="_self">Contact</a></li>
+        </ul>
+      </div>
+      <div class="widget">
+        <ul class="social-profiles">
+          <li><a href="http://twitter.com/fossasia" target="_self"><i class="icon social_twitter"></i></a></li>
+          <li><a href="http://facebook.com/fossasia" target="_self"><i class="icon social_facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ" target="_self"><i class="icon social_youtube icon-large"></i></a></li>
+          <li><a href="https://www.flickr.com/photos/fossasia/" target="_self"><i class="icon social_flickr"></i></a></li>
+          <li><a href="https://www.instagram.com/explore/tags/fossasia/" target="_self"><i class="icon social_instagram"></i></a></li>
+          <li><a href="https://github.com/fossasia" target="_self"><i class="fa fa-github fa-lg"></i></a></li>
+        </ul>
+      </div>
+      <div class="copy-text-box">
+        <div class="copy-text-bottom">
+          <span>© Copyright 2016 Creative Commons By License, FOSSASIA</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
