@@ -46,4 +46,8 @@ $(document).ready(function() {
             $('nav .container').toggleClass('reveal-sidebar');
         }
     });
+
+    // Lazy Load
+    $("img").unveil(200);
+
 });

@@ -5,7 +5,7 @@ title: Friday February 28 - Opening and Keynotes | FOSSASIA
 
 #Friday February 28 - Opening and Keynotes
 
-![FOSSASIA Group](images/fossasia_group3.jpg "FOSSASIA Group")
+<p><img data-src="images/fossasia_group3.jpg" alt="FOSSASIA Group" title="FOSSASIA Group"></p>
 
 <style type="text/css">
 .tg {
@@ -131,7 +131,9 @@ title: Friday February 28 - Opening and Keynotes | FOSSASIA
   </tr>
 </table>
 
-![FOSSASIA Group](images/fossasia_group4.jpg "FOSSASIA Group")
-![FOSSASIA Group](images/fossasia_group5.jpg "FOSSASIA Group")
-![FOSSASIA Group](images/fossasia_group6.jpg "FOSSASIA Group")
-![FOSSASIA Group](images/fossasia_group7.jpg "FOSSASIA Group")
+<p>
+  <img data-src="images/fossasia_group4.jpg" alt="FOSSASIA Group" title="FOSSASIA Group"><br>
+  <img data-src="images/fossasia_group5.jpg" alt="FOSSASIA Group" title="FOSSASIA Group"><br>
+  <img data-src="images/fossasia_group6.jpg" alt="FOSSASIA Group" title="FOSSASIA Group"><br>
+  <img data-src="images/fossasia_group7.jpg" alt="FOSSASIA Group" title="FOSSASIA Group">
+</p>
