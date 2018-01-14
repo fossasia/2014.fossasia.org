@@ -15,7 +15,7 @@ title: Schedule Saturday March 1 | FOSSASIA
 
 # Schedule Saturday March 1
 
-![Speaker 1](images/speaker1.jpg "Speaker 1")
+<p><img data-src="images/speaker1.jpg" alt="Speaker 1" title="Speaker 1"></p>
 
 #### Day 2, Track 1-4
 
@@ -188,10 +188,12 @@ title: Schedule Saturday March 1 | FOSSASIA
   </tr>
 </table>
 
-![Speaker 2](images/speaker2.jpg "Speaker 2")
-![FOSSASIA Group](images/fossasia_group9.jpg "FOSSASIA Group")
-![Speaker 3](images/speaker3.jpg "Speaker 3")
-![Dinner](images/dinner.jpg "Dinner")
+<p>
+  <img data-src="images/speaker2.jpg" alt="Speaker 2" title="Speaker 2"><br>
+  <img data-src="images/fossasia_group9.jpg" alt="FOSSASIA Group" title="FOSSASIA Group"><br>
+  <img data-src="images/speaker3.jpg" alt="Speaker 3" title="Speaker 3"><br>
+  <img data-src="images/dinner.jpg" alt="Dinner" title="Dinner">
+</p>
 
 #### Day 2, Track 5-8
 
@@ -364,5 +366,7 @@ title: Schedule Saturday March 1 | FOSSASIA
   </tr>
 </table>
 
-![Speaker 4](images/speaker4.jpg "Speaker 4")
-![Working](images/working.jpg "Working")
+<p>
+  <img data-src="images/speaker4.jpg" alt="Speaker 4" title="Speaker 4"><br>
+  <img data-src="images/working.jpg" alt="Working" title="Working">
+</p>

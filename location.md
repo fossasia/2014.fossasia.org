@@ -20,7 +20,7 @@ All of Phnom Penh's streets are numbered. Some major thoroughfares also have nam
 
 House numbers, however, are quite haphazard. Don't expect houses to be numbered sequentially on a street; you might even find two completely unrelated houses with the same number on the same street.
 
-![Phnom Penh](images/phnom.jpg "Phnom Penh")
+<p><img data-src="images/phnom.jpg" alt="Phnom Penh" title="Phnom Penh"></p>
 
 ## Visa
 
@@ -34,7 +34,7 @@ For more information please check on the website of the ministry of foreign affa
 
 Phnom Penh has many hotels and guesthouses in all price ranges available. The speakers hotel for the event is Asia Tune Hotel. Please enquire about discount rates directly with FOSSASIA organizers.
 
-![Asia Tune Hotel](images/asiatunehotel.jpg "Asia Tune Hotel")
+<p><img data-src="images/phnom.jpg" alt="Phnom Penh" title="Phnom Penh"></p>
 
 Asia Tune Hotel welcomes you and invites you to enjoy your stay in the Kingdom of Wonder. A modern, 4 story building features 83 modern, lush and inviting rooms that will make your stay memorable. We are located in the Heart of Phnom Penh and just a few minutes from the famous Mekong River and Wat Phnom. Our modern architecture and friendly staff will welcome you with true “Khmer Hospitality” and a delicious complimentary welcome drink to mark the beginning of an enchanting journey. Let Asia Tune Hotel and our lovely staff enhance your stay.
 

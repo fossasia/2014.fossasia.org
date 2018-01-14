@@ -5,7 +5,7 @@ title: FOSSASIA | 28 Feb.-2 Mar 2014 | Phnom Penh, Cambodia | Open Source Techno
 
 # Schedule
 
-![Group FOSSASIA](images/fossasia_group1.jpg "Group FOSSASIA")
+<p><img data-src="images/fossasia_group1.jpg" alt="Group FOSSASIA" title="Group FOSSASIA"></p>
 
 ## 3 Days of Pure Knowledge Sharing, 71 International Speakers, 15 Presenters from Cambodia, 121 Talks, Workshops and Panels, 8 tracks per day, Hands-on Labs and Hacking practice for everyone.
 
@@ -13,7 +13,7 @@ title: FOSSASIA | 28 Feb.-2 Mar 2014 | Phnom Penh, Cambodia | Open Source Techno
 
 ## Please click above to download the detailed schedule as pdf.
 
-![Group FOSSASIA](images/fossasia_group2.jpg "Group FOSSASIA")
+<p><img data-src="images/fossasia_group2.jpg" alt="Group FOSSASIA" title="Group FOSSASIA"></p>
 
 # Agenda
 
@@ -28,12 +28,13 @@ The main topics of FOSSASIA 2014 are all related to Free and Open Source Softwar
 |                            | Evening | Social Event | Location in the city to be announced |
 |    **Sunday, Mar. 2**      | 9.00-15.30  |  Phnom Penh Hands-on Day  | Open Institute |
 
-![Hong Phuc Dang](images/IMG_1250_0.jpg "Hong Phuc Dang")
-
-![Building](images/building.jpg "Building")
+<p><img data-src="images/IMG_1250_0.jpg" alt="Hong Phuc Dang" title="Hong Phuc Dang"></p>
+<p><img data-src="images/building.jpg" alt="Building" title="Building"></p>
 
 ## Location: Street 352, Open Institute, Phnom Penh, Cambodia [Map](http://goo.gl/maps/2zDkb)
 
-![Cambodia Group](images/cambodia_group1.jpg "Cambodia Group")
-![Cambodia Group](images/cambodia_group2.jpg "Cambodia Group")
-![Cambodia Group](images/cambodia_group3.jpg "Cambodia Group")
+<p>
+	<img data-src="images/cambodia_group1.jpg" alt="Cambodia Group" title="Cambodia Group"><br>
+	<img data-src="images/cambodia_group2.jpg" alt="Cambodia Group" title="Cambodia Group"><br>
+	<img data-src="images/cambodia_group3.jpg" alt="Cambodia Group" title="Cambodia Group">
+</p>

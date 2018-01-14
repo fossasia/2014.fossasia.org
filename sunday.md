@@ -5,7 +5,7 @@ title: FOSSASIA 2014 - Hands-On Lab Sunday March 2
 
 # FOSSASIA 2014 - Hands-On Lab Sunday March 2
 
-![Hong Phuc Dang](images/hong_phuc.jpg "Hong Phuc Dang")
+<p><img data-src="images/hong_phuc.jpg" alt="Hong Phuc Dang" title="Hong Phuc Dang"></p>
 
 ## Hands-on Labs, Open Institute Phnom Penh
 

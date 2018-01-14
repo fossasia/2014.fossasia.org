@@ -5,7 +5,7 @@ title: Schedule Friday February 28
 
 # Schedule Friday February 28
 
-![Image FOSSASIA](images/img1146.jpg "Image FOSSASIA")
+<p><img data-src="images/img1146.jpg" alt="Image FOSSASIA" title="Image FOSSASIA"></p>
 
 #### Day - Track 1-4
 
@@ -121,6 +121,9 @@ title: Schedule Friday February 28
     <td class="tg-031e"></td>
   </tr>
 </table>
-![Classroom](images/classroom.jpg "Classroom")
-![Speaker](images/speaker.jpg "speaker")
-![FOSSASIA Group](images/fossasia_group8.jpg "FOSSASIA Group")
+
+<p>
+  <img data-src="images/classroom.jpg" alt="Classroom" title="Classroom"><br>
+  <img data-src="images/speaker.jpg" alt="Speaker" title="speaker"><br>
+  <img data-src="images/fossasia_group8.jpg" alt="FOSSASIA Group" title="FOSSASIA Group">
+</p>

@@ -38,4 +38,3 @@ If you need to get in touch with the FOSSASIA committee, please contact:
 #### Hong Phuc Dang
 FOSSASIA Organizer Saigon
 [hp@fossasia.org](mailto:hp@fossasia.org)
-
