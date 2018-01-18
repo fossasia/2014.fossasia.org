@@ -187,7 +187,6 @@ table {
 
 .top {
   background-image: url(images/fossasia2016.jpg);
-  position: relative;
   width: 100%;
   min-width: 100%;
   min-height: auto;
@@ -201,17 +200,6 @@ table {
   padding-top: 130px;
   padding-bottom: 320px;
   z-index: -2;
-}
-.top:before {
-  background-color: #000;
-  opacity: 0.4;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  z-index: -1;
 }
 .partners {
   text-align: center;
@@ -297,6 +285,21 @@ div hr {
   color: #e7e3e2;
   width: 150px;
 }
+a {
+  color: #e12b00;
+  transition: 0.1s;
+}
+a:hover {
+  color: #e12b00;
+  border-bottom: 3px solid #e12b00;
+}
+#content h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 35px;
+  margin: 50px 0;
+  font-weight: initial;
+}
 
 </style>
 <div class="nav-container">
@@ -304,7 +307,7 @@ div hr {
     <div class="container">
       <div class="row">
         <div class="col-md-2">
-          <a target="_self" class="inner-link" href="./"><img alt="FOSSASIA" class="logo logo-light" src="images/fossasia-logo-light.png">
+          <a target="_self" class="inner-link" href="https://fossasia.org"><img alt="FOSSASIA" class="logo logo-light" src="images/fossasia-logo-light.png">
 						<img alt="FOSSASIA" class="logo logo-dark" src="images/fossasia-logo-dark.png"></a>
         </div>
 
@@ -321,11 +324,14 @@ div hr {
                 <li><a href="schedule.pdf" target="_blank">Download Schedule</a></li>
               </ul>
               <li class="has-dropdown"><a href="javascript:void(0);">External</a>
-                <ul class="nav-dropdown" style="min-height: 100px">
-                  <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+                <ul class="nav-dropdown" style="min-height: 175px">
+                  <!--whenever you add/remove an option, change the style="min-height:#" by +- 25px-->
                   <li><a href="http://groups.google.com/group/fossasia">Mailing List</a></li>
-                  <li><a href="http://blog.fossasia.org/gsoc-ideas-2014">GSoS</a></li>
+                  <li><a href="http://blog.fossasia.org/gsoc-ideas-2014">GSoC</a></li>
                   <li><a href="http://blog.fossasia.org/">Blog</a></li>
+                  <li><a href="https://coc.fossasia.org/">Code of Conduct</a></li>
+                  <li><a href="https://codeheat.org/">Code Heat</a></li>
+                  <li><a href="https://codein.withgoogle.com/organizations/fossasia/">Code-In</a></li>
                 </ul>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="venue.html">Venue</a></li>
@@ -364,8 +370,12 @@ div hr {
           <li><a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ" target="_self"><i class="icon social_youtube icon-large"></i></a></li>
           <li><a href="https://www.flickr.com/photos/fossasia/" target="_self"><i class="icon social_flickr"></i></a></li>
           <li><a href="https://www.instagram.com/explore/tags/fossasia/" target="_self"><i class="icon social_instagram"></i></a></li>
-          <li><a href="https://github.com/fossasia" target="_self"><i class="fa fa-github fa-lg"></i></a></li>
-        </ul>
+          <li><a target="_self" href="https://github.com/fossasia"><i class="fa fa-github"></i></a></li>
+          <li><a target="_self" href="https://plus.google.com/108920596016838318216"><i class="fa fa-google-plus"></i></a></li>
+          <li><a target="_self" href="https://www.reddit.com/r/FOSSASIA/"><i class="fa fa-reddit-alien"></i></a></li>
+          <li><a target="_self" href="https://www.vk.com/fossasia"><i class="fa fa-vk"></i></a></li>    
+         <li><a target="_self" href="https://in.pinterest.com/fossasia"><i class="fa fa-pinterest-p"></i></a></li>   
+      </ul>
       </div>
       <div class="copy-text-box">
         <div class="copy-text-bottom">
