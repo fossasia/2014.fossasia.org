@@ -1,476 +1,540 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Location, Visa and Accomodation in Phnom Penh | FOSSASIA</title>
-    <script src="https://use.fontawesome.com/5b995733c2.js"></script>
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  <title>Location, Visa and Accomodation in Phnom Penh | FOSSASIA</title>
+  <script src="https://use.fontawesome.com/5b995733c2.js"></script>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-    <link rel="canonical" href="http://localhost:4000/location.html">
-    <link rel="shortcut icon" href="images/fever_favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="FOSSASIA 2014 Conference" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/fossasia/fossasia14/gh-pages/images/working.jpg" />
+  <link rel="canonical" href="http://fossasia.github.io/2014.fossasia.org//location.html">
+  <link rel="shortcut icon" href="images/fever_favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <meta property="og:title" content="FOSSASIA 2014 Conference" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/fossasia/fossasia14/gh-pages/images/working.jpg" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="stylesheets/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+  <link href="css/theme-lava.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all" />
 </head>
-
-
     <body>
 <style scoped>
-
-    #feet, .push{
-			height:50px;
-		}
-		#side-bar h1 {
-			display: block;
-			margin: 0 auto;
-			text-align: center;
-			background: none;
-			margin-top: 7%;
-		}
-
-		#side-bar {
-			display: flex;
-			flex-direction:column;
-			margin-top: 5%;
-			width: 90em;
-			width: 30%;
-			float: right;
-			height: auto;
-		}
-
-		h1 {
-			font-family: 'Open Sans';
-			font-weight: normal;
-      			text-transform: uppercase;
-      			letter-spacing: 0.36%;
-			text-align:center;
-		}
-
-		#side-bar h1 {
-			font-family: 'raleway';
-			color: #333;
-			font-size: 1.4em;
-			text-transform: none;
-			letter-spacing: 0;
-			padding: 0px;
-
-		}
-
-		#side-bar .sponsor {
-			display: block;
-			width: 50%;
-			margin: 0 auto;
-			margin-top: 10%;
-			padding-bottom: 3%;
-			transition: 0.4s;
-		}
-
-		#side-bar .sponsor:hover {
-			width: 60%
-		}
-
-		#mc_embed_signup form {
-			display: block;
-			position: relative;
-			text-align: left;
-			padding: 10px 0px 10px 3%;
-		}
-
-		#mc_embed_signup {
-			background: #fff;
-			clear: left;
-			font: 14px Helvetica,Arial,sans-serif;
-		}
-
-    		#mc_embed_signup_scroll {
-      			padding-top: 15px;
-  	 	}
-
-		#mce-EMAIL {
-			display: block;
-			margin-top: 5%;
-			font: 14px 'raleway';
-			letter-spacing: 1px;
-			border: none;
-      			background-color: #efecec;
-			padding-left: 5px;
-			margin: 0 auto;
-			width: 70%;
-			height: 25px;
-		}
-
-		#mc-embedded-subscribe {
-			display: block;
-			margin: 0 auto;
-			width: 60%;
-			height: 30px;
-			margin-top: 5%;
-			background-color: #e12b00;
-      			border-radius: 15px;
-      			border: none;
-      			color: #fff;
-      			font-family: 'raleway';
-      			font-weight: 600;
-		}
-
-		#mc-embedded-subscribe:hover {
-      			border-style: solid;
-			border-color: #e12b00;
-      			background: none;
-      			color: #333;
-		}
-
-		form {
-			margin: 0;
-		}
-
-@media screen and (min-width: 20px) and (max-width : 760px) {
-	#side-bar {
-		display: flex;
-		flex-direction:column;
-		margin-top: 5%;
-		background-color: #EEE;
-		border-radius: 10px;
-		width: 90em;
-		width: 100%;
-		float: right;
-		height: auto;
-	}
+.partners h1 {
+  margin-top: 70px;
+  text-align: center;
+  background: none;
+  color: #333;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0px;
 }
 
-@media screen and (min-width: 760px)  and (max-width: 900px){
-	#side-bar h1 {
-		font-size: 0.7em;
-	}
+.main-header {
+  color: #fff;
 }
 
-@media screen and (min-width: 900px)  and (max-width: 1100px){
-	#side-bar h1 {
-		font-size: 0.9em;
-	}
+.partners .sponsor {
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-bottom: 3%;
+  width: 200px;
+  transition: 0.4s;
+  height: auto;
 }
 
-@media screen and (min-width: 1100px)  and (max-width: 1300px){
-	#side-bar h1 {
-		font-size: 1.5em;
-	}
+.partners .sponsor:hover {
+  width: 240px;
+}
+.newsletter-form {
+  background-image: url(images/fossasia_group6.jpg);
+  background-size: cover;
+  padding: 50px 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.newsletter-form:before {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "\A";
+  position: absolute;
+  z-index: 0;
+}
+.newsletter-form h1 {
+  color: #fff;
+}
+.newsletter-form * {
+  position: relative;
+}
+
+#mc_embed_signup form {
+  display: block;
+  position: relative;
+  text-align: left;
+  padding: 10px 0px 10px 3%;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+#mc_embed_signup_scroll {
+  padding-top: 15px;
+}
+
+#mce-EMAIL {
+  font: 14px "raleway";
+  letter-spacing: 1px;
+  border: none;
+  background-color: rgba(238, 238, 238, 0.6);
+  padding-left: 5px;
+  margin: 0 auto;
+  height: 35px;
+}
+
+#mc-embedded-subscribe {
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+  height: 45px;
+  margin-top: 5%;
+  background-color: #e12b00;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#mc-embedded-subscribe:hover {
+  border-style: solid;
+  border-color: #e12b00;
+  background-color: rgba(238, 238, 238, 0.2);
+}
+
+form {
+  margin: 0;
+}
+
+.bg-newsletter {
+  background: rgba(0, 0, 0, 0) url("images/fossasia_group6.jpg") repeat scroll
+    50% 0%;
+  transform: translate3d(0px, -52.4934px, 0px);
+}
+
+.subscribe-1 .email-subscribe {
+  margin-bottom: 50px !important;
+}
+
+.tweets-feed {
+  color: #ffffff;
+  line-height: 25px;
+  font-size: 20px;
+  transition: opacity 0.2s linear;
+  margin-bottom: 20px;
+  height: 250px;
 }
 
 friends-href {
-	text-align: center;
-	display: block;
-	text-decoration: none;
-	margin: 0 auto;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
 }
 
 .flickr-image {
-	float: left;
-	height: 100px;
-	margin-left: 2%;
-	width: 30%;
-}
-html, body {
-    	min-height: 100% !important;
-    	height: 100%;
-}
-nav {
-	margin-left: 5%;
+  float: left;
+  height: 100px;
+  margin-left: 2%;
+  width: 30%;
 }
 
 ::selection {
-	color: #FFF;
-	background-color: #33CCFF;
+  color: #fff;
+  background-color: #33ccff;
 }
 
 -webkit-::selection {
-	color: #FFF;
-	background-color: #33CCFF;
+  color: #fff;
+  background-color: #33ccff;
 }
 
 -msie-::selection {
-	color: #FFF;
-	background-color: #33CCFF;
+  color: #fff;
+  background-color: #33ccff;
 }
 
 -moz-::selection {
-	color: #FFF;
-	background-color: #33CCFF;
+  color: #fff;
+  background-color: #33ccff;
 }
 
 -o-::selection {
-	color: #FFF;
-	background-color: #33CCFF;
+  color: #fff;
+  background-color: #33ccff;
 }
 
 img {
-	display: block;
-	width: 95%;
-	margin: 0 auto;
-	margin-top: 3%;
-}
-
-h2 {
-	font-family: 'Open Sans';
-	text-align: center;
-  	font-weight: 400;
-}
-
-h3 {
-	text-align: left;
-	font-family: 'Droid Sans';
-}
-
-p {
-	font-family: "open sans";
-}
-
-/*Strip the ul of padding and list styling*/
-ul {
-	display:flex;
-  wrap:nowrap;
-	list-style-type:none;
-	margin: 0 auto;
-	padding:0;
-	position: absolute;
-}
-
-/*Create a horizontal list with spacing*/
-li {
-	display:inline-block;
-	float: left;
-	margin-right: 1px;
-}
-
-/*Style for menu links*/
-li a {
-	display:block;
-  	font-size: 100%;
-  	letter-spacing: 1px;
-  	font-weight: bold;
-  	text-transform: uppercase;
-	min-width:140px;
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
-	font-family: 'Open Sans';
-	color: #333;
-	background: none;
-	text-decoration: none;
-}
-
-/*Hover state for top level links*/
-li:hover a {
-	color:  #e12b00;
-  	border-bottom-style: solid;
-  	text-decoration: none;
-}
-
-/*Style for dropdown links*/
-li:hover ul a {
-	background: #00000080;
-	color: #fff;
-	height: 40px;
-	line-height: 40px;
-	border: none;
-}
-
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
-	background-color: #e12b00;
-}
-
-/*Hide dropdown links until they are needed*/
-li ul {
-	display: none;
-}
-
-/*Make dropdown links vertical*/
-li ul li {
-	display: block;
-	float: none;
-}
-
-/*Prevent text wrapping*/
-li ul li a {
-	width: auto;
-	min-width: 100px;
-	padding: 0 20px;
-}
-
-/*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
-	display: block;
-}
-
-
-/*Style 'show menu' label button and hide it by default*/
-.show-menu {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	color: #fff;
-	background: #19c589;
-	text-align: center;
-	padding: 10px 0;
-	display: none;
-}
-
-/*Hide checkbox*/
-input[type=checkbox]{
-    	display: none;
-    	-webkit-appearance: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
-   	display: block;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
 }
 
 #wrapper {
-	width: 80em;
-	height: 3820;
-	margin: 0 auto;
-	max-width: 90%;
-	padding: 0 1em 1em 1em;
+  width: 1170px;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0 1em 1em 1em;
 }
 
 #content {
-	border-radius: 10px;
-	display: block;
-	margin-top: 5%;
-	background-color: #EEE;
-	width: 90em;
-	width: 65%;
-	float: left;
-	height:100%;
-  	padding: 15px;
+  background-color: #eee;
+  height: 100%;
+  margin: auto;
+  height: 100%;
+  padding: 15px;
+}
+table {
+  margin: auto;
 }
 
-/*Responsive Styles*/
-
-@media screen and (min-width: 20px) and (max-width : 760px){
-	/*Make dropdown links appear inline*/
-	ul {
-		position: static;
-		display: none;
-	}
-	/*Create vertical spacing*/
-	li {
-		margin-bottom: 1px;
-	}
-	/*Make all menu links full width*/
-	ul li, li a {
-		width: 100%;
-	}
-	/*Display 'show menu' link*/
-	.show-menu {
-		display: block;
-	}
-
-	#content {
-		display: block;
-		margin-top: 5%;
-		width: 100%;
-		height:100%;
-	}
+.top {
+  background-image: url(images/fossasia2016.jpg);
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 320px;
+  z-index: -2;
 }
-#menu{
-	p
+.top:before {
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
 }
-@media screen and (min-width: 760px)  and (max-width: 900px){
-	li a {
-		min-width: 83px;
-		font-size: 65%;
-	}
+.partners {
+  text-align: center;
+  background-color: #eee;
+}
+.partners .main-title {
+  margin-top: 0;
+}
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.btn-top {
+  display: inline-block;
+  min-width: 190px;
+  padding: 13px 0 14px 0;
+  color: #fff;
+  border-radius: 25px;
+  line-height: 1;
+  font-weight: 600;
+  transition: 0.5s;
+  font-size: 15px;
+}
+.btn-1 {
+  background-color: #e12b00;
+  border: 3px solid #e12b00;
+}
+.btn-2 {
+  border: 3px solid #fff;
+  margin-left: 16px;
+}
+.btn-top:hover {
+  text-decoration: none;
+}
+.btn-1:hover {
+  background-color: #c82600;
+  border-color: #c82600;
+  color: #fff !important;
+}
+.btn-2:hover {
+  background-color: #fff;
+  color: #f82f00;
+}
+hr {
+  width: 90%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.col {
+  margin: 20px;
+}
+.partners {
+  margin-bottom: 5px;
+}
+i {
+  border: none;
+  text-align: center;
 }
 
-@media screen and (min-width: 900px)  and (max-width: 1100px){
-	li a {
-		min-width: 90px;
-		font-size: 80%;
-	}
+.itf {
+  color: #000;
+  text-align: center;
+  border-bottom: none;
+  margin-right: 10px;
+}
+#new {
+  border-bottom: none;
+}
+.dif {
+  align-self: center;
+}
+#neft {
+  text-align: left;
+}
+div hr {
+  color: #e7e3e2;
+  width: 150px;
 }
 
-@media screen and (min-width: 1100px)  and (max-width: 1300px){
-	li a {
-		min-width: 120px;
-		font-size: 80%;
-	}
-}
+</style>
+<div class="nav-container">
+  <nav class="overlay-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <a target="_self" class="inner-link" href="./"><img alt="FOSSASIA" class="logo logo-light" src="images/fossasia-logo-light.png">
+						<img alt="FOSSASIA" class="logo logo-dark" src="images/fossasia-logo-dark.png"></a>
+        </div>
 
-a {
-	text-decoration: none;
-	color: #090;
-}
+        <div class="col-md-10 text-right">
+          <ul class="menu">
+            <li><a href="about.html">About</a></li>
+            <li class="has-dropdown"><a href="friday.html">Agenda</a>
+              <ul class="nav-dropdown" style="min-height: 150px">
+                <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+                <li><a href="friday.html">Friday Opening and Keynotes</a></li>
+                <li><a href="schedule.html">Schedule Friday</a></li>
+                <li><a href="saturday.html">Saturday</a></li>
+                <li><a href="sunday.html">Sunday hands on lab</a></li>
+                <li><a href="schedule.pdf" target="_blank">Download Schedule</a></li>
+              </ul>
+              <li class="has-dropdown"><a href="javascript:void(0);">External</a>
+                <ul class="nav-dropdown" style="min-height: 100px">
+                  <!--whenever you add/remove an option, change the style="min-height:425px" by +- 25px-->
+                  <li><a href="http://groups.google.com/group/fossasia">Mailing List</a></li>
+                  <li><a href="http://blog.fossasia.org/gsoc-ideas-2014">GSoS</a></li>
+                  <li><a href="http://blog.fossasia.org/">Blog</a></li>
+                </ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="venue.html">Venue</a></li>
+                <li><a href="location.html">Location &amp; Visa</a></li>
+          </ul>
+          <div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
+          <div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
+        </div>
 
-a:hover {
-	text-decoration: underline;
-}
-#feet{
-	display:flex;
-	wrap: nowrap;
+      </div>
+    </div>
+    <div class="bottom-border"></div>
 
+    <div class="sidebar-menu">
+      <img alt="Logo" class="logo" src="images/fossasia-logo-light.png">
+      <div class="bottom-border"></div>
+      <div class="widget">
+        <ul class="menu">
+          <li><a class="inner-link" href="#top">Home</a></li>
+          <li><a href="./about" target="_self">About</a></li>
+          <li><a href="http://eventyay.com" target="_self">Event Management</a></li>
+          <li><a class="inner-link" href="#labs" target="_self">Labs &amp; Code</a></li>
+          <li><a href="http://github.com/fossasia" target="_self">Contribute</a></li>
+          <!-- <li><a class="inner-link" href="#support" target="_self">Support</a></li><li><a class="inner-link" href="#subscribe" target="_self">Subscribe</a></li> -->
+          <li><a href="http://2018.fossasia.org" target="_self">FOSSASIA Summit'18</a></li>
+          <li><a href="http://blog.fossasia.org" target="_self">Blog</a></li>
+          <li><a href="./donate/" target="self">Donate</a></li>
+          <li><a href="https://groups.google.com/group/fossasia" target="_self">Mailing List</a></li>
+          <li><a href="http://blog.fossasia.org/contact/" target="_self">Contact</a></li>
+        </ul>
+      </div>
+      <div class="widget">
+        <ul class="social-profiles">
+          <li><a href="http://twitter.com/fossasia" target="_self"><i class="icon social_twitter"></i></a></li>
+          <li><a href="http://facebook.com/fossasia" target="_self"><i class="icon social_facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ" target="_self"><i class="icon social_youtube icon-large"></i></a></li>
+          <li><a href="https://www.flickr.com/photos/fossasia/" target="_self"><i class="icon social_flickr"></i></a></li>
+          <li><a href="https://www.instagram.com/explore/tags/fossasia/" target="_self"><i class="icon social_instagram"></i></a></li>
+          <li><a href="https://github.com/fossasia" target="_self"><i class="fa fa-github fa-lg"></i></a></li>
+        </ul>
+      </div>
+      <div class="copy-text-box">
+        <div class="copy-text-bottom">
+          <span>© Copyright 2016 Creative Commons By License, FOSSASIA</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
 
+    <section class="top">
+  <img alt="logo" class="logo" src="images/fossasia-logo-light.png"><br>
+  <span>FOSSASIA OPEN DESIGN WEEKS ASIA 2011/2012<br/>2nd - 16th April 2012</span>
+  <h1 class="main-header"><span>"The Open Conversational Web" at Asia's Premier Open Technology Event</span></h1>
+  <div class="buttons-top">
+    <a href="https://blog.fossasia.org/" class="btn-top btn-1">FOSSASIA Blog</a>
+    <a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ" class="btn-top btn-2">Watch Talks</a>
+  </div>
+</section>
+<section class="partners">
+  <div class="container-flex">
+    <div class="col col-1">
 
-}
-	</style>
+      <h1>Platinum Sponsor</h1>
+      <a href="http://google.com/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/google.png" /></a>
+      <a href="http://www.swedenabroad.com/en-GB/Embassies/Phnom-Penh/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/embassyofsweden.png"></a>
+
+      <h1>International Contributor</h1>
+      <a href="http://www.ilabsoutheastasia.org/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/InSTEDD.png"></a>
+
+      <h1>Our Friends</h1>
+      <a class="friends-href" href="http://icos.org.tw/" target="_blank">ICOS, Taiwan</a><br>
+      <a class="friends-href" href="http://hpdang.com/" target="_blank">HPDang</a><br>
+      <a class="friends-href" href="http://www.fisl.org.br/" target="_blank">FISL, Brazil</a><br>
+      <a class="friends-href" href="http://www.fosdem.org/" target="_blank">FOSDEM, Brussels</a><br>
+      <a class="friends-href" href="http://www.typo3cambodia.org/" target="_blank">Typo3 Cambodia</a><br>
+      <a class="friends-href" href="http://perspektive89.com/" target="_blank">Perspektive'89</a><br>
+      <a class="friends-href" href="http://libregraphics.asia/" target="_blank">Libre Graphics Images Indonesia</a><br>
+      <a class="friends-href" href="http://mekongtours.info/" target="_blank">Fair Travel Mekong Tours Agency</a><br>
+      <a class="friends-href" href="http://www.froscon.de/startseite/" target="_blank">FrOScon</a><br>
+      <a class="friends-href" href="http://hackerspace.sg/" target="_blank">Hackerspace Singapore</a><br>
+      <a class="friends-href" href="http://opendesign.asia/" target="_blank">Open Design &amp; Maker Weeks Asia</a><br>
+      <a class="friends-href" href="http://foss.vn/" target="_blank">FOSS Education Vietnam</a><br>
+      <a class="friends-href" href="http://meshcon.net/" target="_blank">MeshCon FashionTec Week</a><br>
+
+    </div>
+    <div class="col col-2">
+
+      <h1>Organizing Partners</h1>
+      <a href="http://mbm.asia/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/mbm_logo.png"></a>
+      <a href="http://www.web-essentials.asia/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/webessentials.png"></a>
+      <a href="http://open.org.kh/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/openinstitute.gif"></a>
+
+      <h1>Host 2014</h1>
+      <a href="http://norton-u.com/en/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/norton-university.png"></a>
+
+    </div>
+    <div class="col col-3">
+
+      <h1>Diamond Sponsor</h1>
+      <a href="http://www.ezecom.com.kh/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/ezecom.png"></a>
+
+      <h1>Community Sponsor</h1>
+      <a href="https://fedoraproject.org/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/fedora_0.png"></a>
+
+      <h1>Gold Sponsor</h1>
+      <a href="http://dai.com/our-work/projects/cambodia%E2%80%94development-innovations" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/devinnovations.png"></a>
+
+      <h1>Supporter</h1>
+      <a href="http://www.typo3cambodia.org/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/KTUG_logo.png"></a>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="subscribe-1">
+  <div class="background-image-holder parallax-background bg-newsletter">
+    <img class="background-image bg-newsletter" alt="Background Image" src="images/fossasia_group6.jpg">
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1 class="large-h1 text-white">Subscribe to stay informed</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+        <form class="email-subscribe" action="https://freelayers.net/subscribe" method="POST" accept-charset="utf-8">
+          <div class="col-sm-4 newsletter-name">
+            <input class="form-email signup-email-field" placeholder="Enter your name" type="text" name="name" id="name">
+          </div>
+          <div class="newsletter-email col-sm-5">
+            <input class="form-email signup-email-field" placeholder="Enter your email address" type="text" name="email" id="email">
+          </div>
+          <div class="newsletter-submit col-sm-3">
+            <input class="btn" value="Subscribe" type="submit" name="submit" id="submit">
+            <input type="hidden" name="list" value="A8fchTRvBw2wap1ojIfjyQ">
+          </div>
+          <div class="col-sm-12 text-center">
+            <span>*We never share your email with 3rd parties</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+        <div class="twitter-feed">
+          <i class="icon social_twitter text-white"></i>
+          <!-- For changing parameters of tweets-feed, please see https://github.com/fossasia/fossasia-loklak-webtweets/blob/gh-pages/README.md for the full documentation -->
+          <div class="tweets-feed" data-count=3 data-query="fossasia"></div><br/>
+          <span class="text-white">Follow <a href="http://twitter.com/fossasia" target="_self">@fossasia</a> for more updates</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer">
+        <div class="col-sm-12">
+          <div class="top-border"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <div id="wrapper">
-<header>
-	<nav>
-	<label for="show-menu" class="show-menu">Show Menu</label>
-	<input type="checkbox" id="show-menu" role="button" />
-	<ul id="menu">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="https://2014.fossasia.org/">FOSSASIA 2014</a></li>
-		<li><a href="about.html">About</a></li>
-		<li>
-			<a href="friday.html">Agenda &#65516;</a>
-			<ul class="hidden">
-				<li><a href="friday.html">Friday Opening and Keynotes</a></li>
-				<li><a href="schedule.html">Schedule Friday</a></li>
-				<li><a href="saturday.html">Saturday</a></li>
-				<li><a href="sunday.html">Sunday hands on lab</a></li>
-				<li><a href="schedule.pdf" target="_blank">PDF Download Schedule</a></li>
-			</ul>
-		</li>
-		<li>
-			<a href="javascript:void(0);">External &#65516;</a>
-			<ul class="hidden">
-				<li><a href="http://groups.google.com/group/fossasia">Mailing List</a></li>
-				<li><a href="http://blog.fossasia.org/gsoc-ideas-2014">GSoS</a></li>
-				<li><a href="http://blog.fossasia.org/">Blog</a></li>
-				<li><a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags">Flickr</a></li>
-			</ul>
-		</li>
-		<li><a href="contact.html">Contact</a></li>
-		<li><a href="venue.html">Venue</a></li>
-		<li><a href="location.html">Location &amp; Visa</a></li>
-	</ul>
-	</nav>
-</header>
 <div id="content">
-
-
+  
     <div class="page-content">
       <div class="wrapper">
-        <p>#Location, Visa and Accomodation in Phnom Penh
-Phnom Penh (/pəˈnɔːm ˈpɛn/ or /ˈnɒm ˈpɛn/;Khmer: ភ្នំពេញ, Khmer pronunciation: [pnum pɨɲ]) is the capital and largest city of Cambodia. Located on the banks of the Tonlé Sap and Mekong River, Phnom Penh has been the national capital since French colonization of Cambodia, and has grown to become the nation’s center of economic and industrial activities, as well as the center of security, politics, cultural heritage, and diplomacy of Cambodia.</p>
+        <h1 id="location-visa-and-accomodation-in-phnom-penh">Location, Visa and Accomodation in Phnom Penh</h1>
+<p>Phnom Penh (/pəˈnɔːm ˈpɛn/ or /ˈnɒm ˈpɛn/;Khmer: ភ្នំពេញ, Khmer pronunciation: [pnum pɨɲ]) is the capital and largest city of Cambodia. Located on the banks of the Tonlé Sap and Mekong River, Phnom Penh has been the national capital since French colonization of Cambodia, and has grown to become the nation’s center of economic and industrial activities, as well as the center of security, politics, cultural heritage, and diplomacy of Cambodia.</p>
 
 <p>Once known as the “Pearl of Asia,” it was considered one of the loveliest French-built cities in Indochina in the 1920s. Phnom Penh, along with Siem Reap and Sihanoukville, are significant global and domestic tourist destinations for Cambodia. Founded in 1434, the city is noted for its beautiful and historical architecture and attractions. There are a number of surviving French colonial buildings scattered along the grand boulevards.</p>
 
 <p>Situated on the banks of the Tonlé Sap, Mekong and Bassac rivers, the Phnom Penh metropolitan area is home to about 2.2 million of Cambodia’s population of over 14.8 million, up from about 1.9 million in 2008. The city is the wealthiest and most populous city in Cambodia and is the country’s political hub.</p>
 
-<p>##History</p>
+<h2 id="history">History</h2>
 
 <p>In 1975 Phnom Penh was choked with up to 2 million refugees from the war between the then U.S.-backed government and the Khmer Rouge. The city fell to the Khmer Rouge in 1975, who completely emptied it of civilians and allowed it to crumble for several years. The city’s small class of skilled or educated professionals was systematically murdered by Pol Pot, or driven into exile. Cambodia’s developing economy and institutionalised corruption have concentrated wealth into a new rich class that now supports Phnom Penh’s new fancy hotels and restaurants. Increasing tourist numbers are also bringing about improving tourist infrastructure.</p>
 
-<p>##Orientation</p>
+<h2 id="orientation">Orientation</h2>
 
 <p>All of Phnom Penh’s streets are numbered. Some major thoroughfares also have names. The scheme is simple: odd-numbered streets run north-south, the numbers increasing as you head west from the river, and even numbered streets run west-east, increasing as you head south (with some exceptions, e.g., the west side of what was Boeung Kak Lake).</p>
 
@@ -478,7 +542,7 @@ Phnom Penh (/pəˈnɔːm ˈpɛn/ or /ˈnɒm ˈpɛn/;Khmer: ភ្នំពេញ
 
 <p><img src="images/phnom.jpg" alt="Phnom Penh" title="Phnom Penh" /></p>
 
-<p>##Visa</p>
+<h2 id="visa">Visa</h2>
 
 <p>VISA: Right upon arrival at Phnom Penh International Airport, you can buy a 1-month tourist visa for $25. 2 passport pictures are needed (or some cash). ATM available. Make sure your passport is valid at least another six months. From the airport, take a taxi or tuk tuk ride to the conference location or your hotel for $9 or $7 (taxi or tuk tuk respectively, flat rate for single trips from the airport to any point of the city).</p>
 
@@ -486,7 +550,7 @@ Phnom Penh (/pəˈnɔːm ˈpɛn/ or /ˈnɒm ˈpɛn/;Khmer: ភ្នំពេញ
 
 <p>For more information please check on the website of the ministry of foreign affairs: <a href="http://evisa.mfaic.gov.kh">http://evisa.mfaic.gov.kh</a></p>
 
-<p>##Accomodation</p>
+<h2 id="accomodation">Accomodation</h2>
 
 <p>Phnom Penh has many hotels and guesthouses in all price ranges available. The speakers hotel for the event is Asia Tune Hotel. Please enquire about discount rates directly with FOSSASIA organizers.</p>
 
@@ -494,7 +558,7 @@ Phnom Penh (/pəˈnɔːm ˈpɛn/ or /ˈnɒm ˈpɛn/;Khmer: ភ្នំពេញ
 
 <p>Asia Tune Hotel welcomes you and invites you to enjoy your stay in the Kingdom of Wonder. A modern, 4 story building features 83 modern, lush and inviting rooms that will make your stay memorable. We are located in the Heart of Phnom Penh and just a few minutes from the famous Mekong River and Wat Phnom. Our modern architecture and friendly staff will welcome you with true “Khmer Hospitality” and a delicious complimentary welcome drink to mark the beginning of an enchanting journey. Let Asia Tune Hotel and our lovely staff enhance your stay.</p>
 
-<p>###Sources</p>
+<h3 id="sources">Sources</h3>
 
 <p>Wikipedia: <a href="https://en.wikipedia.org/wiki/Phnom_Penh">https://en.wikipedia.org/wiki/Phnom_Penh</a></p>
 
@@ -502,90 +566,59 @@ Phnom Penh (/pəˈnɔːm ˈpɛn/ or /ˈnɒm ˈpɛn/;Khmer: ភ្នំពេញ
 
       </div>
     </div>
-    	</div>
-	<div id="side-bar">
-		<h1>Platinum Sponsor</h1>
-		<a href="http://google.com/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/google_logo.png" /></a>
-		<a href="http://www.swedenabroad.com/en-GB/Embassies/Phnom-Penh/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/embassyofsweden.png"></a>
-		<h1>FOSSASIA Updates</h1>
-		<form action="//fossasia.us9.list-manage.com/subscribe/post?u=d5cf526b4ceea238da3512fb3&amp;id=2be821d83b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-    		<div id="mc_embed_signup_scroll">
-		    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
-    		    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    		    <div style="position: absolute; left: -5000px;"><input type="text" name="b_d5cf526b4ceea238da3512fb3_2be821d83b" tabindex="-1" value=""></div>
-    		    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    		</div>
-		</form>
+    </div>	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/tweets.js"></script>
 
-		<h1>Organizing Partners</h1>
-		<a href="http://mbm.asia/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/mbm_logo.png"></a>
-		<a href="http://www.web-essentials.asia/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/webessentials.png"></a>
-		<a href="http://open.org.kh/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/openinstitute.gif"></a>
-
-		<h1>Diamond Sponsor</h1>
-		<a href="http://www.ezecom.com.kh/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/ezecom.png"></a>
-
-		<h1>Community Sponsor</h1>
-		<a href="https://fedoraproject.org/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/fedora_0.png"></a>
-
-		<h1>Gold Sponsor</h1>
-		<a href="http://dai.com/our-work/projects/cambodia%E2%80%94development-innovations" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/devinnovations.png"></a>
-
-		<h1>Silver Sponsor</h1>
-		<img alt="sponsor logo" class="sponsor" src="images/side_images/mozilla-fossasia-grey.png">
-		<a href="http://sabay.com.kh/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/Sabay_0.png"></a>
-
-		<h1>International Contributor</h1>
-		<a href="http://www.ilabsoutheastasia.org/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/InSTEDD.png"></a>
-
-		<h1>Host 2014</h1>
-		<a href="http://norton-u.com/en/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/norton-university.png"></a>
-
-		<h1>Supporter</h1>
-		<a href="http://www.typo3cambodia.org/" target="_blank"><img alt="sponsor logo" class="sponsor" src="images/side_images/KTUG_logo.png"></a>
-
-		<h1>Our Friends</h1>
-		<a class="friends-href" href="http://icos.org.tw/" target="_blank">ICOS, Taiwan</a><br>
-		<a class="friends-href" href="http://hpdang.com/" target="_blank">HPDang</a><br>
-		<a class="friends-href" href="http://www.fisl.org.br/" target="_blank">FISL, Brazil</a><br>
-		<a class="friends-href" href="http://www.fosdem.org/" target="_blank">FOSDEM, Brussels</a><br>
-		<a class="friends-href" href="http://www.typo3cambodia.org/" target="_blank">Typo3 Cambodia</a><br>
-		<a class="friends-href" href="http://perspektive89.com/" target="_blank">Perspektive'89</a><br>
-		<a class="friends-href" href="http://libregraphics.asia/" target="_blank">Libre Graphics Images Indonesia</a><br>
-		<a class="friends-href" href="http://mekongtours.info/" target="_blank">Fair Travel Mekong Tours Agency</a><br>
-		<a class="friends-href" href="http://www.froscon.de/startseite/" target="_blank">FrOScon</a><br>
-		<a class="friends-href" href="http://hackerspace.sg/" target="_blank">Hackerspace Singapore</a><br>
-		<a class="friends-href" href="http://opendesign.asia/" target="_blank">Open Design &amp; Maker Weeks Asia</a><br>
-		<a class="friends-href" href="http://foss.vn/" target="_blank">FOSS Education Vietnam</a><br>
-		<a class="friends-href" href="http://meshcon.net/" target="_blank">MeshCon FashionTec Week</a><br>
-    <div>
-		<h1>Flickr</h1>
-		<a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags"><img alt="flickr image" class="flickr-image" src="images/footer_images/1.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags"><img alt="flickr image" class="flickr-image" src="images/footer_images/2.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags"><img alt="flickr image" class="flickr-image" src="images/footer_images/3.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags"><img alt="flickr image" class="flickr-image" src="images/footer_images/4.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags"><img alt="flickr image" class="flickr-image" src="images/footer_images/5.jpg"></a>
-		<a href="http://www.flickr.com/search/?q=fossasia2014&amp;m=tags"><img alt="flickr image" class="flickr-image" src="images/footer_images/6.jpg"></a>
+<div class="footer-container">
+    <footer class="classic">
+        <div class="container">
+            <div class="row ui-sortable">
+                <div class="col-lg-2">
+                    <ul class="menu">
+                        <li><a target="_self" href="http://blog.fossasia.org">Blog</a></li>
+                        <li><a target="_self" href="http://github.com/fossasia">Github</a></li>
+                        <li><a target="_self" href="http://labs.fossasia.org/#projects">Projects</a></li>
+                        <li><a target="_self" href="http://coc.fossasia.org/">Code of Conduct</a></li>
+                        <li><a target="_self" href="./about">About</a></li>
+                        <li><a target="_self" href="http://blog.fossasia.org/contact">Contact</a></li>
+                        <li><a target="_self" href="./donate/">Donate</a></li>
+                        <li><a class="inner-link back-to-top" href="#top">Back To Top</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-7">
+                    <span class="lead color-heading">About FOSSASIA</span>
+                    <p> FOSSASIA develops Open Source software and hardware for conversational AIs, science and event management with a global developer community from its base in Asia. The organization organizes Open Technology events, runs coding programs and the <a target="_self" href="https://codeheat.org" style="color:#777777">#Codeheat</a> development contest. The annual FOSSASIA Summit is the premier Open Technology event in Asia for developers, contributors, start-ups, and technology companies. FOSSASIA was founded in 2009 by <a target="_self" href="http://twitter.com/mariobehling" style="color:#777777">Mario Behling</a> and <a target="_self" href="http://twitter.com/hpdang" style="color:#777777">Hong Phuc Dang</a>.</p>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="contact-methods">
+                        <li><i class="icon pe-7s-mail"></i><span><a id="mailAdd" href="mailto:fossasia@googlegroups.com" target="_self" style="color:#777777">fossasia@googlegroups.com</a></span></li>
+                        <li><i class="icon pe-7s-phone"></i><span>+65 83435672</span></li>
+                        <li><i class="icon pe-7s-map-marker"></i><span>FOSSASIA</span></li>
+                        <li><span>Ms. DANG Hong Phuc</span></li>
+                        <li><span>6 Eu Tong Sen Street #05-07 The Central, Singapore 059817</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ui-sortable">
+                <div class="col-sm-12 text-center">
+                    <ul class="social-profiles">
+                        <li><a target="_self" href="http://twitter.com/fossasia"><i class="icon social_twitter"></i></a></li>
+                        <li><a target="_self" href="http://facebook.com/fossasia"><i class="icon social_facebook"></i></a></li>
+                        <li><a target="_self" href="https://www.linkedin.com/groups/FOSSASIA-3762811"><i class="icon social_linkedin icon-large"></i></a></li>
+                        <li><a target="_self" href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ"><i class="icon social_youtube icon-large"></i></a></li>
+                        <li><a target="_self" href="https://www.flickr.com/photos/fossasia"><i class="icon social_flickr icon-large"></i></a></li>
+                        <li><a target="_self" href="https://www.instagram.com/explore/tags/fossasia/"><i class="icon social_instagram"></i></a></li>
+                        <li><a target="_self" href="https://github.com/fossasia"><img role="img" src="./images/github.png" /><a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
-		<div id="feet" class="container">
-		<a href="https://www.facebook.com/fossasia/"><i align="left" style="padding: 3px; color: #000000; font-size: xx-large;" class="fa fa-facebook-official" aria-hidden="true"></i></a>
-		<a href="https://twitter.com/fossasia"><i align="left" style="padding: 3px; color: #000000; font-size: xx-large;" class="fa fa-twitter-square" aria-hidden="true"></i></a>
-		<a href="https://github.com/fossasia"><i align="left" style="padding: 3px; color: #000000;  font-size: xx-large;" class="fa fa-github-alt" aria-hidden="true"></i></a>
-		</div>
-	</div>
-
-    
-
-
-
-	<footer style="padding-top: 20px;" align="center" style="color: black">
-
-
-
-
-	</footer>
-
 
   </body>
-
 </html>
