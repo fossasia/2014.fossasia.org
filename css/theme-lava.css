@@ -256,6 +256,16 @@ body {
   background: #eee;
   -moz-osx-font-smoothing: grayscale;
 }
+@media all and (max-width: 320px) {
+    body {
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 243px) {
+    body {
+        font-size: 9px;
+    }
+}
 h1,
 h2,
 h3,
@@ -857,7 +867,7 @@ nav .container {
   .nav-dropdown {
     position: relative;
     display: none;
-    min-height: 600px; 
+    min-height: 600px;
  }
   .has-dropdown:hover .nav-dropdown {
     display: block;
@@ -2361,6 +2371,11 @@ footer.short .top-border {
   left: 8px;
   font-size: 16px;
 }
+@media all and (max-width: 320px){
+    .contact-methods span {
+        font-size: 13px;
+    }
+}
 footer.classic .social-profiles {
   margin-top: 36px;
 }
@@ -2371,6 +2386,11 @@ footer.classic .social-profiles {
 .social-profiles li {
   float: left;
   margin-right: 36px;
+}
+@media all and (max-width: 767px) {
+  .social-profiles li {
+    margin-right: 10px;
+  }
 }
 .social-profiles li:last-child {
   margin-right: 0px;
