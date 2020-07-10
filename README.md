@@ -1,16 +1,6 @@
-[![Build Status](https://travis-ci.org/fossasia/2014.fossasia.org.svg?branch=gh-pages)](https://travis-ci.org/fossasia/2014.fossasia.org)
-# fossasia14
-FOSSASIA 2014's Website for Fossasia Summit 2014
+# FOSSASIA Summit 2014
 
-Running
----
-Use the following command to run -
+FOSSASIA 2014's Website for FOSSASIA Summit 2014
 
-```sh
-jekyll serve --baseurl=""
-```
-then go to http://localhost:4000 to view the site
+https://2014.fossasia.org
 
-Live
----
-http://fossasia.github.io/2014.fossasia.org
